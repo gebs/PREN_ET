@@ -1934,3 +1934,114 @@ java.io.UnsupportedEncodingException: cp850.
 	at org.eclipse.ui.actions.BuildAction$1.runInWorkspace(BuildAction.java:444)
 	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:38)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+!SESSION 2017-03-03 10:52:41.838 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\famga\Desktop\HSLU\FS17\PREN2\Freedom\PREN_ET
+
+!ENTRY org.eclipse.core.resources 2 10035 2017-03-03 10:52:42.907
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.osgi 2 1 2017-03-03 10:52:43.379
+!MESSAGE NLS missing message: ContentTypes_errorDialogAlreadyExists in: org.eclipse.ui.internal.messages
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:52:49.188
+!MESSAGE Environment Variable Dependency not resolved for 'ARMGNUDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:52:49.194
+!MESSAGE Environment Variable Dependency not resolved for 'ARMSummonDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:52:49.196
+!MESSAGE Environment Variable Dependency not resolved for 'ARMYagartoDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:52:49.197
+!MESSAGE Environment Variable Dependency not resolved for 'ARMdevkitProDirEnv'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:52:51.243
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.0/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:52:51.245
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.0/patches' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:52:51.561
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.1/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:52:51.562
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.1/patches' does not exist
+
+!ENTRY com.freescale.processorexpert.core 1 0 2017-03-03 10:52:53.250
+!MESSAGE Plugin com.freescale.processorexpert.core.service ProcessorExpertServiceProvider
+!SESSION 2017-03-03 10:53:03.260 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\famga\Desktop\HSLU\FS17\PREN2\Freedom\PREN_ET
+
+!ENTRY org.eclipse.osgi 2 1 2017-03-03 10:53:05.586
+!MESSAGE NLS missing message: ContentTypes_errorDialogAlreadyExists in: org.eclipse.ui.internal.messages
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:53:11.118
+!MESSAGE Environment Variable Dependency not resolved for 'ARMGNUDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:53:11.124
+!MESSAGE Environment Variable Dependency not resolved for 'ARMSummonDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:53:11.125
+!MESSAGE Environment Variable Dependency not resolved for 'ARMYagartoDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:53:11.126
+!MESSAGE Environment Variable Dependency not resolved for 'ARMdevkitProDirEnv'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:53:13.226
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.0/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:53:13.227
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.0/patches' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:53:13.474
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.1/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:53:13.475
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.1/patches' does not exist
+
+!ENTRY com.freescale.processorexpert.core 1 0 2017-03-03 10:53:15.071
+!MESSAGE Plugin com.freescale.processorexpert.core.service ProcessorExpertServiceProvider
+!SESSION 2017-03-03 10:53:20.786 -----------------------------------------------
+eclipse.buildId=I20070613-1755
+java.version=1.6.0_15
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data C:\Users\famga\Desktop\HSLU\FS17\PREN2\Freedom\PREN_ET
+
+!ENTRY org.eclipse.osgi 2 1 2017-03-03 10:53:22.620
+!MESSAGE NLS missing message: ContentTypes_errorDialogAlreadyExists in: org.eclipse.ui.internal.messages
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:53:27.167
+!MESSAGE Environment Variable Dependency not resolved for 'ARMGNUDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:53:27.172
+!MESSAGE Environment Variable Dependency not resolved for 'ARMSummonDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:53:27.173
+!MESSAGE Environment Variable Dependency not resolved for 'ARMYagartoDirEnv'.
+
+!ENTRY com.freescale.core.ide.cdt.toolchain 4 0 2017-03-03 10:53:27.174
+!MESSAGE Environment Variable Dependency not resolved for 'ARMdevkitProDirEnv'.
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:53:28.879
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.0/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:53:28.880
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.0/patches' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:53:29.096
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.1/ppc' does not exist
+
+!ENTRY com.freescale.core.ide.wizard.ui 2 0 2017-03-03 10:53:29.097
+!MESSAGE External elements location 'C:\Freescale\CW MCU v10.6.2\eclipse\../MCU/lib/wizard_data/mqx/4.1/patches' does not exist
+
+!ENTRY com.freescale.processorexpert.core 1 0 2017-03-03 10:53:30.236
+!MESSAGE Plugin com.freescale.processorexpert.core.service ProcessorExpertServiceProvider

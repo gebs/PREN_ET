@@ -24,7 +24,7 @@
 **  @addtogroup main_module main module documentation
 **  @{
 */         
-/* MODULE main */
+/* MODULE main  Hallo*/
 
 
 /* Including needed modules to compile this module/procedure */
