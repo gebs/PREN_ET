@@ -17,7 +17,7 @@
 ** @file main.c
 ** @version 01.01
 ** @brief
-**         Main module.
+**         This is a Main module.
 **         This module contains user's application code.
 */         
 /*!
