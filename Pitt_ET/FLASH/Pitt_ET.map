@@ -101,6 +101,24 @@ Discarded input sections
  .text          0x00000000        0x0 ./Sources/main.o
  .data          0x00000000        0x0 ./Sources/main.o
  .bss           0x00000000        0x0 ./Sources/main.o
+ .text          0x00000000        0x0 ./Sources/Motor.o
+ .data          0x00000000        0x0 ./Sources/Motor.o
+ .bss           0x00000000        0x0 ./Sources/Motor.o
+ .text.speedL   0x00000000       0x10 ./Sources/Motor.o
+ .text.speedR   0x00000000       0x10 ./Sources/Motor.o
+ .debug_info    0x00000000       0x9c ./Sources/Motor.o
+ .debug_abbrev  0x00000000       0x74 ./Sources/Motor.o
+ .debug_loc     0x00000000       0x70 ./Sources/Motor.o
+ .debug_aranges
+                0x00000000       0x28 ./Sources/Motor.o
+ .debug_macinfo
+                0x00000000     0x24fb ./Sources/Motor.o
+ .debug_line    0x00000000      0x10a ./Sources/Motor.o
+ .debug_str     0x00000000       0xd3 ./Sources/Motor.o
+ .comment       0x00000000       0x7a ./Sources/Motor.o
+ .ARM.attributes
+                0x00000000       0x31 ./Sources/Motor.o
+ .debug_frame   0x00000000       0x50 ./Sources/Motor.o
  .text          0x00000000        0x0 ./Sources/Events.o
  .data          0x00000000        0x0 ./Sources/Events.o
  .bss           0x00000000        0x0 ./Sources/Events.o
@@ -203,6 +221,7 @@ LOAD ./Project_Settings/Startup_Code/__arm_start.o
 LOAD ./Project_Settings/Startup_Code/__arm_end.o
 LOAD ./Sources/sa_mtb.o
 LOAD ./Sources/main.o
+LOAD ./Sources/Motor.o
 LOAD ./Sources/Events.o
                 0x0000091c                __pformatter = __pformatter_
                 [0x00000d44]                __sformatter = __sformatter
