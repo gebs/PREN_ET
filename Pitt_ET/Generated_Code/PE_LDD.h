@@ -5,7 +5,7 @@
 **     Processor   : MKL25Z128VLK4
 **     Version     : Component 01.025, Driver 01.04, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-09, 08:53, # CodeGen: 1
+**     Date/Time   : 2017-03-09, 10:56, # CodeGen: 5
 **     Abstract    :
 **
 **     Settings    :
@@ -63,6 +63,9 @@
 #include "FRTOS1.h"
 #include "KSDK1.h"
 #include "UTIL1.h"
+#include "PWM1.h"
+#include "PwmLdd1.h"
+#include "TU1.h"
 
 
 /*

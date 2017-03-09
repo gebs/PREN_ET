@@ -49,7 +49,14 @@ Sources/main.o: ../Sources/main.c \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/event_groups.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/timers.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/KSDK1.h \
- C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/UTIL1.h
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/UTIL1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/PWM1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/PwmLdd1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/TU1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/TPM_PDD.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/PwmLdd1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/TU1.h
 
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -152,3 +159,17 @@ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_E
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/KSDK1.h:
 
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/UTIL1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/PWM1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/PwmLdd1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/TU1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/TPM_PDD.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/PwmLdd1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/TU1.h:

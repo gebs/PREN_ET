@@ -37,6 +37,9 @@
 #include "FRTOS1.h"
 #include "KSDK1.h"
 #include "UTIL1.h"
+#include "PWM1.h"
+#include "PwmLdd1.h"
+#include "TU1.h"
 
 #ifdef __cplusplus
 extern "C" {
