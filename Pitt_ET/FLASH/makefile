@@ -2,7 +2,7 @@
 # Automatically-generated file. Do not edit!
 ################################################################################
 
-#Progress monitor hint: 9
+#Progress monitor hint: 25
 first : all
 -include ../makefile.init
 
@@ -59,7 +59,7 @@ all: warning-messages explicit-dependencies Pitt_ET.elf secondary-outputs
 # Tool invocations
 Pitt_ET.elf: $(OBJS) $(USER_OBJS) ../Project_Settings/Linker_Files/ProcessorExpert.ld
 	@echo 'Building target: $@'
-	@echo 'Executing target #10 $@'
+	@echo 'Executing target #26 $@'
 	@echo 'Invoking: ARM Ltd Windows GCC C Linker'
 	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc"  $(USER_OBJS_QUOTED) $(LIBS_QUOTED) @"Pitt_ET.args" -o"Pitt_ET.elf"
 	@echo 'Finished building target: $@'
@@ -67,7 +67,7 @@ Pitt_ET.elf: $(OBJS) $(USER_OBJS) ../Project_Settings/Linker_Files/ProcessorExpe
 
 # Other Targets
 clean:
-	-$(RM) $(S_DEPS_QUOTED) "./*/*.o" "./*/*/*.o"  $(S_UPPER_DEPS_QUOTED) $(ASM_DEPS_QUOTED) $(ASM_UPPER_DEPS_QUOTED) $(SX_DEPS_QUOTED) $(EXECUTABLES_QUOTED) "./*/*.d" "./*/*/*.d"  $(ProjDirPath)/FLASH/Pitt_ET.elf
+	-$(RM) "./*/*.d"  "./*/*.o" "./*/*/*.o"  $(S_UPPER_DEPS_QUOTED) $(ASM_DEPS_QUOTED) $(ASM_UPPER_DEPS_QUOTED) $(SX_DEPS_QUOTED) $(EXECUTABLES_QUOTED) "./*/*.d" "./*/*/*.d"  $(ProjDirPath)/FLASH/Pitt_ET.elf
 	-@echo ' '
 
 secondary-outputs:

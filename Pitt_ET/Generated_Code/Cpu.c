@@ -7,7 +7,7 @@
 **     Version     : Component 01.025, Driver 01.04, CPU db: 3.00.000
 **     Datasheet   : KL25P80M48SF0RM, Rev.3, Sep 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-03, 10:37, # CodeGen: 0
+**     Date/Time   : 2017-03-09, 08:53, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -59,7 +59,10 @@
 
 /* MODULE Cpu. */
 
-/* {Default RTOS Adapter} No RTOS includes */
+#include "FreeRTOS.h" /* FreeRTOS interface */
+#include "FRTOS1.h"
+#include "KSDK1.h"
+#include "UTIL1.h"
 #include "PE_Types.h"
 #include "PE_Error.h"
 #include "PE_Const.h"
@@ -236,7 +239,14 @@ void PE_low_level_init(void)
                 ));
   /* NVIC_IPR1: PRI_6=0 */
   NVIC_IPR1 &= (uint32_t)~(uint32_t)(NVIC_IP_PRI_6(0xFF));
-  __EI();
+  /* ### KinetisSDK "KSDK1" init code ... */
+  /* Write code here ... */
+  /* ### FreeRTOS "FRTOS1" init code ... */
+#if configSYSTICK_USE_LOW_POWER_TIMER
+  /* enable clocking for low power timer, otherwise vPortStopTickTimer() will crash */
+  SIM_PDD_SetClockGate(SIM_BASE_PTR, SIM_PDD_CLOCK_GATE_LPTMR0, PDD_ENABLE);
+#endif
+  vPortStopTickTimer(); /* tick timer shall not run until the RTOS scheduler is started */
 }
   /* Flash configuration field */
   __attribute__ ((section (".cfmconfig"))) const uint8_t _cfm[0x10] = {

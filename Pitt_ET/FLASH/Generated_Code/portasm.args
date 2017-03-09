@@ -1,0 +1,11 @@
+-mcpu=cortex-m0
+-mthumb
+-mfloat-abi=soft
+-g3
+-gdwarf-2
+-gstrict-dwarf
+-x assembler-with-cpp
+-I"C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code"
+-Wall
+-c
+-fmessage-length=0

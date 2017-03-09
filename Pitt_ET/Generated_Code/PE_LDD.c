@@ -5,7 +5,7 @@
 **     Processor   : MKL25Z128VLK4
 **     Version     : Component 01.025, Driver 01.04, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-03, 10:37, # CodeGen: 0
+**     Date/Time   : 2017-03-09, 08:53, # CodeGen: 1
 **     Abstract    :
 **
 **     Settings    :
@@ -55,8 +55,8 @@
 
 /* MODULE PE_LDD. */
 
-/* {Default RTOS Adapter} No RTOS includes */
-/* {Default RTOS Adapter} No RTOS driver includes */
+#include "FreeRTOS.h" /* FreeRTOS interface */
+/* {FreeRTOS RTOS Adapter} No RTOS driver includes */
 
 #include "PE_LDD.h"
 #include "Cpu.h"
