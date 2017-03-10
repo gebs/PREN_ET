@@ -8,42 +8,49 @@
 C_SRCS_QUOTED += \
 "../Sources/Events.c" \
 "../Sources/Motor.c" \
+"../Sources/TestFreeRTOS.c" \
 "../Sources/main.c" \
 "../Sources/sa_mtb.c" \
 
 C_SRCS += \
 ../Sources/Events.c \
 ../Sources/Motor.c \
+../Sources/TestFreeRTOS.c \
 ../Sources/main.c \
 ../Sources/sa_mtb.c \
 
 OBJS += \
 ./Sources/Events.o \
 ./Sources/Motor.o \
+./Sources/TestFreeRTOS.o \
 ./Sources/main.o \
 ./Sources/sa_mtb.o \
 
 C_DEPS += \
 ./Sources/Events.d \
 ./Sources/Motor.d \
+./Sources/TestFreeRTOS.d \
 ./Sources/main.d \
 ./Sources/sa_mtb.d \
 
 OBJS_QUOTED += \
 "./Sources/Events.o" \
 "./Sources/Motor.o" \
+"./Sources/TestFreeRTOS.o" \
 "./Sources/main.o" \
 "./Sources/sa_mtb.o" \
 
 C_DEPS_QUOTED += \
 "./Sources/Events.d" \
 "./Sources/Motor.d" \
+"./Sources/TestFreeRTOS.d" \
 "./Sources/main.d" \
 "./Sources/sa_mtb.d" \
 
 OBJS_OS_FORMAT += \
 ./Sources/Events.o \
 ./Sources/Motor.o \
+./Sources/TestFreeRTOS.o \
 ./Sources/main.o \
 ./Sources/sa_mtb.o \
 
@@ -65,9 +72,17 @@ Sources/Motor.o: ../Sources/Motor.c
 	@echo 'Finished building: $<'
 	@echo ' '
 
-Sources/main.o: ../Sources/main.c
+Sources/TestFreeRTOS.o: ../Sources/TestFreeRTOS.c
 	@echo 'Building file: $<'
 	@echo 'Executing target #3 $<'
+	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
+	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/TestFreeRTOS.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/TestFreeRTOS.o"
+	@echo 'Finished building: $<'
+	@echo ' '
+
+Sources/main.o: ../Sources/main.c
+	@echo 'Building file: $<'
+	@echo 'Executing target #4 $<'
 	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
 	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/main.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/main.o"
 	@echo 'Finished building: $<'
@@ -75,7 +90,7 @@ Sources/main.o: ../Sources/main.c
 
 Sources/sa_mtb.o: ../Sources/sa_mtb.c
 	@echo 'Building file: $<'
-	@echo 'Executing target #4 $<'
+	@echo 'Executing target #5 $<'
 	@echo 'Invoking: ARM Ltd Windows GCC C Compiler'
 	"$(ARMSourceryDirEnv)/arm-none-eabi-gcc" "$<" @"Sources/sa_mtb.args" -MMD -MP -MF"$(@:%.o=%.d)" -o"Sources/sa_mtb.o"
 	@echo 'Finished building: $<'

@@ -30,6 +30,7 @@
 
 - \subpage TU1
 - \subpage PwmLdd1
+- \subpage DIR
 
 
 */

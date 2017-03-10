@@ -7,7 +7,7 @@
 **     Version     : Component 01.025, Driver 01.04, CPU db: 3.00.000
 **     Datasheet   : KL25P80M48SF0RM, Rev.3, Sep 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-09, 10:56, # CodeGen: 5
+**     Date/Time   : 2017-03-09, 11:28, # CodeGen: 11
 **     Abstract    :
 **
 **     Settings    :
@@ -66,6 +66,7 @@
 #include "PWM1.h"
 #include "PwmLdd1.h"
 #include "TU1.h"
+#include "DIR.h"
 #include "PE_Types.h"
 #include "PE_Error.h"
 #include "PE_Const.h"
@@ -252,6 +253,8 @@ void PE_low_level_init(void)
   vPortStopTickTimer(); /* tick timer shall not run until the RTOS scheduler is started */
   /* ### PWM_LDD "PwmLdd1" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
   (void)PwmLdd1_Init(NULL);
+  /* ### BitIO_LDD "DIR" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
+  (void)DIR_Init(NULL);
 }
   /* Flash configuration field */
   __attribute__ ((section (".cfmconfig"))) const uint8_t _cfm[0x10] = {

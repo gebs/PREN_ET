@@ -36,11 +36,15 @@
 #include "PWM1.h"
 #include "PwmLdd1.h"
 #include "TU1.h"
+#include "DIR.h"
 /* Including shared modules, which are used for whole project */
 #include "PE_Types.h"
 #include "PE_Error.h"
 #include "PE_Const.h"
 #include "IO_Map.h"
+
+#include "FRTOS1.h"
+#include "TestFreeRTOS.h"
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
@@ -54,8 +58,45 @@ int main(void)
   PE_low_level_init();
   /*** End of Processor Expert internal initialization.                    ***/
 
-  /* Write your code here */
-  /* For example: for(;;) { } */
+  /******************************************************/
+  /*Starting Controller here! */
+  
+  //Hier müssen alle Tasks gestartet werden.
+  
+  if (FRTOS1_xTaskCreate(
+      Task1,  /* pointer to the task */
+      (signed portCHAR *)"Task1", /* task name for kernel awareness debugging */
+      configMINIMAL_STACK_SIZE, /* task stack size */
+      (void*)NULL, /* optional task startup argument */
+      tskIDLE_PRIORITY,  /* initial priority */
+      (xTaskHandle*)NULL /* optional task handle to create */
+     ) != pdPASS)
+  {
+     for(;;){}; /* Out of heap memory? */
+  }
+
+  FRTOS1_vTaskStartScheduler();
+  
+  /*****************************************************/
+  
+  
+  
+  
+  
+  
+  /*Test der Motoren*/
+  /*DIR_SetVal();*/
+  /*for(;;){
+	  
+	  
+	  
+	  
+  }*/
+  
+  
+  
+  
+  
 
   /*** Don't write any code pass this line, or it will be deleted during code generation. ***/
   /*** RTOS startup code. Macro PEX_RTOS_START is defined by the RTOS component. DON'T MODIFY THIS CODE!!! ***/

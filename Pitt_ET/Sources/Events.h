@@ -40,6 +40,7 @@
 #include "PWM1.h"
 #include "PwmLdd1.h"
 #include "TU1.h"
+#include "DIR.h"
 
 #ifdef __cplusplus
 extern "C" {
