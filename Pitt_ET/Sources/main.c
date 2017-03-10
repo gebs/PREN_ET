@@ -33,10 +33,12 @@
 #include "FRTOS1.h"
 #include "KSDK1.h"
 #include "UTIL1.h"
-#include "PWM1.h"
 #include "PwmLdd1.h"
 #include "TU1.h"
 #include "DIR.h"
+#include "WAIT1.h"
+#include "Test.h"
+#include "PWM_R.h"
 /* Including shared modules, which are used for whole project */
 #include "PE_Types.h"
 #include "PE_Error.h"
@@ -45,6 +47,8 @@
 
 #include "FRTOS1.h"
 #include "TestFreeRTOS.h"
+#include "Motor.h"
+
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
@@ -63,14 +67,25 @@ int main(void)
   
   //Hier müssen alle Tasks gestartet werden.
   
-  if (FRTOS1_xTaskCreate(
-      Task1,  /* pointer to the task */
-      (signed portCHAR *)"Task1", /* task name for kernel awareness debugging */
-      configMINIMAL_STACK_SIZE, /* task stack size */
-      (void*)NULL, /* optional task startup argument */
-      tskIDLE_PRIORITY,  /* initial priority */
-      (xTaskHandle*)NULL /* optional task handle to create */
-     ) != pdPASS)
+  if (FRTOS1_xTaskCreate(	Task1,  /* pointer to the task */
+		  	  	  	  	  	(signed portCHAR *)"Task1", /* task name for kernel awareness debugging */
+		  	  	  	  	  	configMINIMAL_STACK_SIZE, /* task stack size */
+		  	  	  	  	  	(void*)NULL, /* optional task startup argument */
+		  	  	  	  	  	tskIDLE_PRIORITY,  /* initial priority */
+		  	  	  	  	  	(xTaskHandle*)NULL /* optional task handle to create */
+     	 	 	 	 	 	 ) != pdPASS)
+  {
+     for(;;){}; /* Out of heap memory? */
+  }
+  
+  
+  if (FRTOS1_xTaskCreate(	Motor,  /* pointer to the task */
+		  	  	  	  	  	(signed portCHAR *)"Motor", /* task name for kernel awareness debugging */
+		  	  	  	  	  	configMINIMAL_STACK_SIZE, /* task stack size */
+		  	  	  	  	  	(void*)NULL, /* optional task startup argument */
+		  	  	  	  	  	tskIDLE_PRIORITY,  /* initial priority */
+		  	  	  	  	  	(xTaskHandle*)NULL /* optional task handle to create */
+     	 	 	 	 	 	 ) != pdPASS)
   {
      for(;;){}; /* Out of heap memory? */
   }
@@ -85,7 +100,7 @@ int main(void)
   
   
   /*Test der Motoren*/
-  /*DIR_SetVal();*/
+
   /*for(;;){
 	  
 	  

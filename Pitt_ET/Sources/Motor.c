@@ -7,13 +7,14 @@
 
 #include "Motor.h"
 
-void speedL(bool dir, int speed)
+void speedL(int dir, int speed)
 {
-
+	DIR_SetVal(DIR_DeviceData); // Richtung definieren
+	PWM_R_SetDutyMS(speed);
 
 }
 
-void speedR(bool dir, int speed)
+void speedR(int dir, int speed)
 {
 
 

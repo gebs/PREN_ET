@@ -6,32 +6,32 @@
 **     Component   : TimerUnit_LDD
 **     Version     : Component 01.164, Driver 01.11, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-09, 10:56, # CodeGen: 5
+**     Date/Time   : 2017-03-10, 11:30, # CodeGen: 17
 **     Abstract    :
 **          This TimerUnit component provides a low level API for unified hardware access across
 **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
 **     Settings    :
 **          Component name                                 : TU1
-**          Module name                                    : TPM0
-**          Counter                                        : TPM0_CNT
+**          Module name                                    : TPM1
+**          Counter                                        : TPM1_CNT
 **          Counter direction                              : Up
 **          Counter width                                  : 16 bits
 **          Value type                                     : uint16_t
 **          Input clock source                             : Internal
 **            Counter frequency                            : Auto select
 **          Counter restart                                : On-match
-**            Period device                                : TPM0_MOD
-**            Period                                       : 5 ms
+**            Period device                                : TPM1_MOD
+**            Period                                       : 100 ms
 **            Interrupt                                    : Disabled
 **          Channel list                                   : 1
 **            Channel 0                                    : 
 **              Mode                                       : Compare
-**                Compare                                  : TPM0_C2V
-**                Offset                                   : 1 ms
+**                Compare                                  : TPM1_C0V
+**                Offset                                   : 10 ms
 **                Output on compare                        : Set
 **                  Output on overrun                      : Clear
 **                  Initial state                          : Low
-**                  Output pin                             : CMP0_IN5/ADC0_SE4b/PTE29/TPM0_CH2/TPM_CLKIN0
+**                  Output pin                             : PTA12/TPM1_CH0
 **                  Output pin signal                      : 
 **                Interrupt                                : Disabled
 **          Initialization                                 : 
@@ -118,7 +118,7 @@ extern "C" {
 #endif 
 
 /* List of channels used by component */
-static const uint8_t ChannelDevice[TU1_NUMBER_OF_CHANNELS] = {0x02U};
+static const uint8_t ChannelDevice[TU1_NUMBER_OF_CHANNELS] = {0x00U};
 
 /* Table of channels mode / 0 - compare mode, 1 - capture mode */
 static const uint8_t ChannelMode[TU1_NUMBER_OF_CHANNELS] = {0x00U};
@@ -180,39 +180,31 @@ LDD_TDeviceData* TU1_Init(LDD_TUserData *UserDataPtr)
     DeviceDataPrv->InitCntr++;         /* Increment counter of initialization */
     return ((LDD_TDeviceData *)DeviceDataPrv); /* Return pointer to the device data structure */
   }
-  /* SIM_SCGC6: TPM0=1 */
-  SIM_SCGC6 |= SIM_SCGC6_TPM0_MASK;
-  /* TPM0_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,DMA=0,TOF=0,TOIE=0,CPWMS=0,CMOD=0,PS=0 */
-  TPM0_SC = (TPM_SC_CMOD(0x00) | TPM_SC_PS(0x00)); /* Clear status and control register */
-  /* TPM0_CNT: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,COUNT=0 */
-  TPM0_CNT = TPM_CNT_COUNT(0x00);      /* Reset counter register */
-  /* TPM0_C0SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
-  TPM0_C0SC = 0x00U;                   /* Clear channel status and control register */
-  /* TPM0_C1SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
-  TPM0_C1SC = 0x00U;                   /* Clear channel status and control register */
-  /* TPM0_C2SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
-  TPM0_C2SC = 0x00U;                   /* Clear channel status and control register */
-  /* TPM0_C3SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
-  TPM0_C3SC = 0x00U;                   /* Clear channel status and control register */
-  /* TPM0_C4SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
-  TPM0_C4SC = 0x00U;                   /* Clear channel status and control register */
-  /* TPM0_C5SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
-  TPM0_C5SC = 0x00U;                   /* Clear channel status and control register */
-  /* TPM0_MOD: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,MOD=0xCCCC */
-  TPM0_MOD = TPM_MOD_MOD(0xCCCC);      /* Set up modulo register */
-  /* TPM0_C2SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=1,MSA=0,ELSB=1,ELSA=1,??=0,DMA=0 */
-  TPM0_C2SC = (TPM_CnSC_MSB_MASK | TPM_CnSC_ELSB_MASK | TPM_CnSC_ELSA_MASK); /* Set up channel status and control register */
-  /* TPM0_C2V: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,VAL=0x28F6 */
-  TPM0_C2V = TPM_CnV_VAL(0x28F6);      /* Set up channel value register */
-  /* PORTE_PCR29: ISF=0,MUX=3 */
-  PORTE_PCR29 = (uint32_t)((PORTE_PCR29 & (uint32_t)~(uint32_t)(
+  /* SIM_SCGC6: TPM1=1 */
+  SIM_SCGC6 |= SIM_SCGC6_TPM1_MASK;
+  /* TPM1_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,DMA=0,TOF=0,TOIE=0,CPWMS=0,CMOD=0,PS=0 */
+  TPM1_SC = (TPM_SC_CMOD(0x00) | TPM_SC_PS(0x00)); /* Clear status and control register */
+  /* TPM1_CNT: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,COUNT=0 */
+  TPM1_CNT = TPM_CNT_COUNT(0x00);      /* Reset counter register */
+  /* TPM1_C0SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
+  TPM1_C0SC = 0x00U;                   /* Clear channel status and control register */
+  /* TPM1_C1SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=0,MSA=0,ELSB=0,ELSA=0,??=0,DMA=0 */
+  TPM1_C1SC = 0x00U;                   /* Clear channel status and control register */
+  /* TPM1_MOD: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,MOD=0xFFFF */
+  TPM1_MOD = TPM_MOD_MOD(0xFFFF);      /* Set up modulo register */
+  /* TPM1_C0SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,CHF=0,CHIE=0,MSB=1,MSA=0,ELSB=1,ELSA=1,??=0,DMA=0 */
+  TPM1_C0SC = (TPM_CnSC_MSB_MASK | TPM_CnSC_ELSB_MASK | TPM_CnSC_ELSA_MASK); /* Set up channel status and control register */
+  /* TPM1_C0V: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,VAL=0x199A */
+  TPM1_C0V = TPM_CnV_VAL(0x199A);      /* Set up channel value register */
+  /* PORTA_PCR12: ISF=0,MUX=3 */
+  PORTA_PCR12 = (uint32_t)((PORTA_PCR12 & (uint32_t)~(uint32_t)(
                  PORT_PCR_ISF_MASK |
                  PORT_PCR_MUX(0x04)
                 )) | (uint32_t)(
                  PORT_PCR_MUX(0x03)
                 ));
-  /* TPM0_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,DMA=0,TOF=0,TOIE=0,CPWMS=0,CMOD=1,PS=1 */
-  TPM0_SC = (TPM_SC_CMOD(0x01) | TPM_SC_PS(0x01)); /* Set up status and control register */
+  /* TPM1_SC: ??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,??=0,DMA=0,TOF=0,TOIE=0,CPWMS=0,CMOD=1,PS=5 */
+  TPM1_SC = (TPM_SC_CMOD(0x01) | TPM_SC_PS(0x05)); /* Set up status and control register */
   /* Registration of the device structure */
   PE_LDD_RegisterDeviceStructure(PE_LDD_COMPONENT_TU1_ID,DeviceDataPrv);
   return ((LDD_TDeviceData *)DeviceDataPrv); /* Return pointer to the device data structure */
@@ -247,7 +239,7 @@ LDD_TError TU1_GetPeriodTicks(LDD_TDeviceData *DeviceDataPtr, TU1_TValueType *Ti
   uint16_t tmp;
 
   (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
-  tmp = (uint16_t)(TPM_PDD_ReadModuloReg(TPM0_BASE_PTR));
+  tmp = (uint16_t)(TPM_PDD_ReadModuloReg(TPM1_BASE_PTR));
   *TicksPtr = (TU1_TValueType)++tmp;
   return ERR_OK;                       /* OK */
 }
@@ -272,7 +264,7 @@ LDD_TError TU1_GetPeriodTicks(LDD_TDeviceData *DeviceDataPtr, TU1_TValueType *Ti
 TU1_TValueType TU1_GetCounterValue(LDD_TDeviceData *DeviceDataPtr)
 {
   (void)DeviceDataPtr;                 /* Parameter is not used, suppress unused argument warning */
-  return (TU1_TValueType)TPM_PDD_ReadCounterReg(TPM0_BASE_PTR);
+  return (TU1_TValueType)TPM_PDD_ReadCounterReg(TPM1_BASE_PTR);
 }
 
 /*
@@ -318,7 +310,7 @@ LDD_TError TU1_SetOffsetTicks(LDD_TDeviceData *DeviceDataPtr, uint8_t ChannelIdx
   if ((ChannelMode[ChannelIdx]) != 0U) { /* Is the channel in compare mode? */
     return ERR_NOTAVAIL;               /* If not then error */
   }
-  TPM_PDD_WriteChannelValueReg(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], (uint16_t)Ticks);
+  TPM_PDD_WriteChannelValueReg(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], (uint16_t)Ticks);
   return ERR_OK;                       /* OK */
 }
 
@@ -363,7 +355,7 @@ LDD_TError TU1_GetOffsetTicks(LDD_TDeviceData *DeviceDataPtr, uint8_t ChannelIdx
   if ((ChannelMode[ChannelIdx]) != 0U) { /* Is the channel in compare mode? */
     return ERR_NOTAVAIL;               /* If not then error */
   }
-  *TicksPtr = (TU1_TValueType)(TPM_PDD_ReadChannelValueReg(TPM0_BASE_PTR, ChannelDevice[ChannelIdx]));
+  *TicksPtr = (TU1_TValueType)(TPM_PDD_ReadChannelValueReg(TPM1_BASE_PTR, ChannelDevice[ChannelIdx]));
   return ERR_OK;                       /* OK */
 }
 
@@ -413,19 +405,19 @@ LDD_TError TU1_SelectOutputAction(LDD_TDeviceData *DeviceDataPtr, uint8_t Channe
   }
   switch (CounterAction) {
     case OUTPUT_NONE:
-      TPM_PDD_SelectChannelMode(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_OUTPUT_TOGGLE);
+      TPM_PDD_SelectChannelMode(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_OUTPUT_TOGGLE);
       switch (CompareAction) {
         case OUTPUT_NONE:
-          TPM_PDD_SelectChannelEdgeLevel(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_NONE);
+          TPM_PDD_SelectChannelEdgeLevel(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_NONE);
           break;
         case OUTPUT_TOGGLE:
-          TPM_PDD_SelectChannelEdgeLevel(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_RISING);
+          TPM_PDD_SelectChannelEdgeLevel(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_RISING);
           break;
         case OUTPUT_CLEAR:
-          TPM_PDD_SelectChannelEdgeLevel(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_FALLING);
+          TPM_PDD_SelectChannelEdgeLevel(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_FALLING);
           break;
         case OUTPUT_SET:
-          TPM_PDD_SelectChannelEdgeLevel(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_BOTH);
+          TPM_PDD_SelectChannelEdgeLevel(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_BOTH);
           break;
         default:
           return ERR_NOTAVAIL;
@@ -435,15 +427,15 @@ LDD_TError TU1_SelectOutputAction(LDD_TDeviceData *DeviceDataPtr, uint8_t Channe
       if (CompareAction != OUTPUT_SET) {
         return ERR_NOTAVAIL;
       }
-      TPM_PDD_SelectChannelMode(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_OUTPUT_CLEAR);
-      TPM_PDD_SelectChannelEdgeLevel(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_BOTH);
+      TPM_PDD_SelectChannelMode(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_OUTPUT_CLEAR);
+      TPM_PDD_SelectChannelEdgeLevel(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_BOTH);
       break;
     case OUTPUT_SET:
       if (CompareAction != OUTPUT_CLEAR) {
         return ERR_NOTAVAIL;
       }
-      TPM_PDD_SelectChannelMode(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_OUTPUT_SET);
-      TPM_PDD_SelectChannelEdgeLevel(TPM0_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_FALLING);
+      TPM_PDD_SelectChannelMode(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_OUTPUT_SET);
+      TPM_PDD_SelectChannelEdgeLevel(TPM1_BASE_PTR, ChannelDevice[ChannelIdx], TPM_PDD_EDGE_FALLING);
       break;
     default:
       return ERR_NOTAVAIL;

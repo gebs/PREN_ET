@@ -6,7 +6,7 @@
 **     Component   : PWM_LDD
 **     Version     : Component 01.013, Driver 01.03, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-09, 10:56, # CodeGen: 5
+**     Date/Time   : 2017-03-10, 11:30, # CodeGen: 17
 **     Abstract    :
 **          This component implements a pulse-width modulation generator
 **          that generates signal with variable duty and fixed cycle.
@@ -15,14 +15,14 @@
 **          component.
 **     Settings    :
 **          Component name                                 : PwmLdd1
-**          Period device                                  : TPM0_MOD
-**          Duty device                                    : TPM0_C2V
-**          Output pin                                     : CMP0_IN5/ADC0_SE4b/PTE29/TPM0_CH2/TPM_CLKIN0
+**          Period device                                  : TPM1_MOD
+**          Duty device                                    : TPM1_C0V
+**          Output pin                                     : PTA12/TPM1_CH0
 **          Output pin signal                              : 
-**          Counter                                        : TPM0_CNT
+**          Counter                                        : TPM1_CNT
 **          Interrupt service/event                        : Disabled
-**          Period                                         : 5 ms
-**          Starting pulse width                           : 1 ms
+**          Period                                         : 100 ms
+**          Starting pulse width                           : 10 ms
 **          Initial polarity                               : low
 **          Initialization                                 : 
 **            Enabled in init. code                        : yes
@@ -148,7 +148,7 @@ LDD_TDeviceData* PwmLdd1_Init(LDD_TUserData *UserDataPtr)
   DeviceDataPrv = &DeviceDataPrv__DEFAULT_RTOS_ALLOC;
   DeviceDataPrv->UserDataPtr = UserDataPtr; /* Store the RTOS device structure */
   DeviceDataPrv->EnUser = TRUE;        /* Set the flag "device enabled" */
-  DeviceDataPrv->RatioStore = 0x3333U; /* Ratio after initialization */
+  DeviceDataPrv->RatioStore = 0x199AU; /* Ratio after initialization */
   /* Registration of the device structure */
   PE_LDD_RegisterDeviceStructure(PE_LDD_COMPONENT_PwmLdd1_ID,DeviceDataPrv);
   DeviceDataPrv->LinkedDeviceDataPtr = TU1_Init((LDD_TUserData *)NULL);
@@ -227,12 +227,7 @@ LDD_TError PwmLdd1_SetDutyUS(LDD_TDeviceData *DeviceDataPtr, uint16_t Time)
   PwmLdd1_TDeviceData *DeviceDataPrv = (PwmLdd1_TDeviceData *)DeviceDataPtr;
   LDD_TimerUnit_Tfloat rtval;          /* Result of multiplication */
 
-  /* Time test - this test can be disabled by setting the "Ignore range checking"
-     property to the "yes" value in the "Configuration inspector" */
-  if (Time > 0x1388U) {                /* Is the given value out of range? */
-    return ERR_PARAM_RANGE;            /* If yes then error */
-  }
-  rtval = Time * 13.107150000191F;     /* Multiply given value and actual clock configuration coefficient */
+  rtval = Time * 0.65536F;             /* Multiply given value and actual clock configuration coefficient */
   if (rtval > 0xFFFFUL) {              /* Is the result greater than 65535 ? */
     DeviceDataPrv->RatioStore = 0xFFFFU; /* If yes then use maximal possible value */
   }
@@ -275,10 +270,10 @@ LDD_TError PwmLdd1_SetDutyMS(LDD_TDeviceData *DeviceDataPtr, uint16_t Time)
 
   /* Time test - this test can be disabled by setting the "Ignore range checking"
      property to the "yes" value in the "Configuration inspector" */
-  if (Time > 0x05U) {                  /* Is the given value out of range? */
+  if (Time > 0x64U) {                  /* Is the given value out of range? */
     return ERR_PARAM_RANGE;            /* If yes then error */
   }
-  rtval = Time * 13107.150001465605F;  /* Multiply given value and actual clock configuration coefficient */
+  rtval = Time * 655.36F;              /* Multiply given value and actual clock configuration coefficient */
   if (rtval > 0xFFFFUL) {              /* Is the result greater than 65535 ? */
     DeviceDataPrv->RatioStore = 0xFFFFU; /* If yes then use maximal possible value */
   }

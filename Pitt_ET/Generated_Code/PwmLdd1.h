@@ -6,7 +6,7 @@
 **     Component   : PWM_LDD
 **     Version     : Component 01.013, Driver 01.03, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-09, 10:56, # CodeGen: 5
+**     Date/Time   : 2017-03-10, 11:30, # CodeGen: 17
 **     Abstract    :
 **          This component implements a pulse-width modulation generator
 **          that generates signal with variable duty and fixed cycle.
@@ -15,14 +15,14 @@
 **          component.
 **     Settings    :
 **          Component name                                 : PwmLdd1
-**          Period device                                  : TPM0_MOD
-**          Duty device                                    : TPM0_C2V
-**          Output pin                                     : CMP0_IN5/ADC0_SE4b/PTE29/TPM0_CH2/TPM_CLKIN0
+**          Period device                                  : TPM1_MOD
+**          Duty device                                    : TPM1_C0V
+**          Output pin                                     : PTA12/TPM1_CH0
 **          Output pin signal                              : 
-**          Counter                                        : TPM0_CNT
+**          Counter                                        : TPM1_CNT
 **          Interrupt service/event                        : Disabled
-**          Period                                         : 5 ms
-**          Starting pulse width                           : 1 ms
+**          Period                                         : 100 ms
+**          Starting pulse width                           : 10 ms
 **          Initial polarity                               : low
 **          Initialization                                 : 
 **            Enabled in init. code                        : yes
@@ -113,11 +113,11 @@ extern "C" {
 #endif 
 
 
-#define PwmLdd1_PERIOD_VALUE 0xCCCDUL  /* Initial period value in ticks of the timer. */
-#define PwmLdd1_PERIOD_VALUE_0 0xCCCDUL /* Period value in ticks of the timer in clock configuration 0. */
+#define PwmLdd1_PERIOD_VALUE 0x00UL    /* Initial period value in ticks of the timer. */
+#define PwmLdd1_PERIOD_VALUE_0 0x00UL  /* Period value in ticks of the timer in clock configuration 0. */
 
 /*! Peripheral base address of a device allocated by the component. This constant can be used directly in PDD macros. */
-#define PwmLdd1_PRPH_BASE_ADDRESS  0x40038000U
+#define PwmLdd1_PRPH_BASE_ADDRESS  0x40039000U
   
 /*! Device data structure pointer used when auto initialization property is enabled. This constant can be passed as a first parameter to all component's methods. */
 #define PwmLdd1_DeviceData  ((LDD_TDeviceData *)PE_LDD_GetDeviceStructure(PE_LDD_COMPONENT_PwmLdd1_ID))

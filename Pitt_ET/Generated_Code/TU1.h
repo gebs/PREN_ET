@@ -6,32 +6,32 @@
 **     Component   : TimerUnit_LDD
 **     Version     : Component 01.164, Driver 01.11, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-09, 10:56, # CodeGen: 5
+**     Date/Time   : 2017-03-10, 11:30, # CodeGen: 17
 **     Abstract    :
 **          This TimerUnit component provides a low level API for unified hardware access across
 **          various timer devices using the Prescaler-Counter-Compare-Capture timer structure.
 **     Settings    :
 **          Component name                                 : TU1
-**          Module name                                    : TPM0
-**          Counter                                        : TPM0_CNT
+**          Module name                                    : TPM1
+**          Counter                                        : TPM1_CNT
 **          Counter direction                              : Up
 **          Counter width                                  : 16 bits
 **          Value type                                     : uint16_t
 **          Input clock source                             : Internal
 **            Counter frequency                            : Auto select
 **          Counter restart                                : On-match
-**            Period device                                : TPM0_MOD
-**            Period                                       : 5 ms
+**            Period device                                : TPM1_MOD
+**            Period                                       : 100 ms
 **            Interrupt                                    : Disabled
 **          Channel list                                   : 1
 **            Channel 0                                    : 
 **              Mode                                       : Compare
-**                Compare                                  : TPM0_C2V
-**                Offset                                   : 1 ms
+**                Compare                                  : TPM1_C0V
+**                Offset                                   : 10 ms
 **                Output on compare                        : Set
 **                  Output on overrun                      : Clear
 **                  Initial state                          : Low
-**                  Output pin                             : CMP0_IN5/ADC0_SE4b/PTE29/TPM0_CH2/TPM_CLKIN0
+**                  Output pin                             : PTA12/TPM1_CH0
 **                  Output pin signal                      : 
 **                Interrupt                                : Disabled
 **          Initialization                                 : 
@@ -131,16 +131,16 @@ extern "C" {
 #define __BWUserType_TU1_TValueType
   typedef uint16_t TU1_TValueType ;    /* Type for data parameters of methods */
 #endif
-#define TU1_CNT_INP_FREQ_U_0 0x00A00000UL /* Counter input frequency in Hz */
-#define TU1_CNT_INP_FREQ_R_0 10485807.459603427F /* Counter input frequency in Hz */
+#define TU1_CNT_INP_FREQ_U_0 0x000A0000UL /* Counter input frequency in Hz */
+#define TU1_CNT_INP_FREQ_R_0 655359.9597346841F /* Counter input frequency in Hz */
 #define TU1_CNT_INP_FREQ_COUNT 0U      /* Count of predefined counter input frequencies */
-#define TU1_PERIOD_TICKS   0xCCCDUL    /* Initialization value of period in 'counter ticks' */
+#define TU1_PERIOD_TICKS   0x00010000UL /* Initialization value of period in 'counter ticks' */
 #define TU1_NUMBER_OF_CHANNELS 0x01U   /* Count of predefined channels */
 #define TU1_COUNTER_WIDTH  0x10U       /* Counter width in bits  */
 #define TU1_COUNTER_DIR    DIR_UP      /* Direction of counting */
-#define TU1_OFFSET_0_TICKS 0x28F6ul    /* Initialization value of offset as 'counter ticks' for channel 0 */
+#define TU1_OFFSET_0_TICKS 0x199Aul    /* Initialization value of offset as 'counter ticks' for channel 0 */
 /*! Peripheral base address of a device allocated by the component. This constant can be used directly in PDD macros. */
-#define TU1_PRPH_BASE_ADDRESS  0x40038000U
+#define TU1_PRPH_BASE_ADDRESS  0x40039000U
   
 /* Methods configuration constants - generated for all enabled component's methods */
 #define TU1_Init_METHOD_ENABLED        /*!< Init method of the component TU1 is enabled (generated) */

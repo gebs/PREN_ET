@@ -29,8 +29,9 @@
 \page page_components Components 
 
 - \subpage TU1
-- \subpage PwmLdd1
 - \subpage DIR
+- \subpage Test
+- \subpage PwmLdd1
 
 
 */

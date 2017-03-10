@@ -8,8 +8,11 @@
 #ifndef TESTFREERTOS_H_
 #define TESTFREERTOS_H_
 
-// Includes die verwendet werden........
+#include "Wait1.h"
+#include "Dir.h"
+#include "Test.h"
 
 #endif /* TESTFREERTOS_H_ */
 
  void Task1(void*);
+ void Motor(void*);
