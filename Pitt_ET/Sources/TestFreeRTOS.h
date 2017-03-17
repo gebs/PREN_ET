@@ -9,8 +9,10 @@
 #define TESTFREERTOS_H_
 
 #include "Wait1.h"
-#include "Dir.h"
-#include "Test.h"
+#include "DIR_R.h"
+#include "FRTOS1.h"
+#include "speed_R.h"
+//#include "Test.h"
 
 #endif /* TESTFREERTOS_H_ */
 

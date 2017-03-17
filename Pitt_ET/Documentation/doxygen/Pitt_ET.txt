@@ -28,10 +28,12 @@
 
 \page page_components Components 
 
-- \subpage TU1
-- \subpage DIR
+- \subpage DIR_L
+- \subpage DIR_R
+- \subpage speed_R
+- \subpage speed_L
 - \subpage Test
-- \subpage PwmLdd1
+- \subpage TU1
 
 
 */

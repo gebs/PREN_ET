@@ -37,12 +37,13 @@
 #include "FRTOS1.h"
 #include "KSDK1.h"
 #include "UTIL1.h"
-#include "PwmLdd1.h"
+#include "DIR_L.h"
 #include "TU1.h"
-#include "DIR.h"
+#include "speed_R.h"
+#include "speed_L.h"
+#include "DIR_R.h"
 #include "WAIT1.h"
 #include "Test.h"
-#include "PWM_R.h"
 
 #ifdef __cplusplus
 extern "C" {

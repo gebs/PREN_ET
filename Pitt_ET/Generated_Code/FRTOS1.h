@@ -6,7 +6,7 @@
 **     Component   : FreeRTOS
 **     Version     : Component 01.508, Driver 01.00, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-09, 08:53, # CodeGen: 1
+**     Date/Time   : 2017-03-16, 09:30, # CodeGen: 21
 **     Abstract    :
 **          This component implements the FreeRTOS Realtime Operating System
 **     Settings    :
@@ -32,10 +32,10 @@
 **            ColdFire V1                                  : Disabled
 **            ColdFire V2                                  : Disabled
 **            Kinetis                                      : Enabled
-**              ARM Family                                 : Cortex-M4
-**              Max SysCall Interrupt Priority             : 5
-**              RTOS Interrupt Priority                    : 15
-**              Lowest Interrupt Priority                  : 15
+**              ARM Family                                 : Cortex-M0+
+**              Max SysCall Interrupt Priority             : 1
+**              RTOS Interrupt Priority                    : 3
+**              Lowest Interrupt Priority                  : 3
 **              Compiler Optimization Level                : 0
 **              SysTick                                    : Enabled
 **                Core Clock                               : yes
@@ -46,7 +46,7 @@
 **            Use Co-Routines                              : no
 **            Idle should yield                            : yes
 **            Task Name Length                             : 12
-**            Minimal Stack Size                           : 200
+**            Minimal Stack Size                           : 100
 **            Maximum Priorities                           : 6
 **            Maximum Coroutine Priorities                 : 2
 **            Stackoverflow checking method                : Method 1
@@ -259,7 +259,6 @@
 #endif
 
 /* Prototypes for interrupt service handlers */
-void vPortSVCHandler(void);
 void vPortPendSVHandler(void);
 void vPortTickHandler(void);
 

@@ -33,13 +33,14 @@ Generated_Code/PE_LDD.o: ../Generated_Code/PE_LDD.c \
  ../Generated_Code/task.h ../Generated_Code/list.h \
  ../Generated_Code/semphr.h ../Generated_Code/queue.h \
  ../Generated_Code/event_groups.h ../Generated_Code/timers.h \
+ ../Generated_Code/DIR_L.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h \
+ ../Generated_Code/DIR_R.h ../Generated_Code/speed_R.h \
+ ../Generated_Code/speed_L.h ../Generated_Code/Test.h \
  ../Generated_Code/TU1.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/TPM_PDD.h \
- C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h \
- ../Generated_Code/DIR.h \
- C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h \
- ../Generated_Code/WAIT1.h ../Generated_Code/Test.h \
- ../Generated_Code/PWM_R.h ../Generated_Code/PwmLdd1.h
+ ../Generated_Code/WAIT1.h
 
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -129,20 +130,22 @@ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v
 
 ../Generated_Code/timers.h:
 
+../Generated_Code/DIR_L.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h:
+
+../Generated_Code/DIR_R.h:
+
+../Generated_Code/speed_R.h:
+
+../Generated_Code/speed_L.h:
+
+../Generated_Code/Test.h:
+
 ../Generated_Code/TU1.h:
 
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/TPM_PDD.h:
 
-C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/PDD_Types.h:
-
-../Generated_Code/DIR.h:
-
-C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ProcessorExpert/lib/Kinetis/pdd/inc/GPIO_PDD.h:
-
 ../Generated_Code/WAIT1.h:
-
-../Generated_Code/Test.h:
-
-../Generated_Code/PWM_R.h:
-
-../Generated_Code/PwmLdd1.h:

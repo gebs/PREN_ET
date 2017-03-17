@@ -13,8 +13,8 @@
 #define true 1
 #define false 0
 */
-#include "Dir.h"
-#include "PWM_R.h"
+#include "Dir_L.h"
+//#include "PWM_R.h"
 
 
 #endif /* MOTOR_H_ */
@@ -22,7 +22,7 @@
 
 
 //void speedL(bool , int );
-void speedL(int , int );
+//void speedL(int , int );
 
 //void speedR(bool , int );
-void speedR(int, int );
+//void speedR(int, int );

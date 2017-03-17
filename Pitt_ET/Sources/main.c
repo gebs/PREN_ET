@@ -33,12 +33,14 @@
 #include "FRTOS1.h"
 #include "KSDK1.h"
 #include "UTIL1.h"
-#include "PwmLdd1.h"
+#include "DIR_L.h"
 #include "TU1.h"
-#include "DIR.h"
+#include "speed_R.h"
+#include "speed_L.h"
+#include "DIR_R.h"
 #include "WAIT1.h"
 #include "Test.h"
-#include "PWM_R.h"
+//#include "Test.h"
 /* Including shared modules, which are used for whole project */
 #include "PE_Types.h"
 #include "PE_Error.h"
@@ -49,6 +51,7 @@
 #include "TestFreeRTOS.h"
 #include "Motor.h"
 
+//Gobale Variablen
 
 /* User includes (#include below this line is not maintained by Processor Expert) */
 
@@ -93,7 +96,14 @@ int main(void)
   FRTOS1_vTaskStartScheduler();
   
   /*****************************************************/
-  
+  while(1){
+	
+	  
+	  
+	  
+	  
+	  
+  }
   
   
   
