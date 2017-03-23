@@ -36,13 +36,13 @@ void setSpeedL(uint8_t speed)
  // do something
 	  xFrequency = speedR;
 	  
-	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency/portTICK_RATE_MS);
-	  speed_R_SetVal(speed_R_DeviceData);
+	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency/portTICK_RATE_MS); 	// wait milisec
+	  speed_R_SetVal(speed_R_DeviceData);									// pos Flanke
 	  
-	  xFrequency = 10;
+	  xFrequency = 10;														
 	  
-	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency);
-	  speed_R_ClrVal(speed_R_DeviceData);
+	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency);					// wait short
+	  speed_R_ClrVal(speed_R_DeviceData);									// neg Flanke
 	  
 	  DIR_R_ClrVal(DIR_R_DeviceData); // Richtung definieren 0
 	  //DIR_R_ClrVal(DIR_R_DeviceData); // Richtung definieren 0

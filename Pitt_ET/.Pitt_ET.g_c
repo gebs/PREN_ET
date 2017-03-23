@@ -227,7 +227,7 @@
     </GenFiles>
     <SignalListFile>Documentation\Pitt_ET_SIGNALS.txt</SignalListFile>
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>28</ProjectModificationStamp>
+    <ProjectModificationStamp>29</ProjectModificationStamp>
   </Options>
   <CpuID_2>
     <Generated>true</Generated>
