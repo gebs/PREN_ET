@@ -59,6 +59,11 @@ Sources/main.o: ../Sources/main.c \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/speed_L.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/DIR_R.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/WAIT1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LED1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LEDpin1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/BitIoLdd1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LEDpin1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/BitIoLdd1.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Test.h \
  ../Sources/TestFreeRTOS.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Wait1.h \
@@ -184,6 +189,16 @@ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_E
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/DIR_R.h:
 
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/WAIT1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LED1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LEDpin1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/BitIoLdd1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LEDpin1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/BitIoLdd1.h:
 
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Test.h:
 

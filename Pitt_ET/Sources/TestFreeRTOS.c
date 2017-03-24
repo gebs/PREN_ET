@@ -6,6 +6,7 @@
  */
 #include "TestFreeRTOS.h"
 #include "speed_R.h"
+#include "LED1.h"
 
 TickType_t speedR;
 TickType_t speedL;
@@ -22,40 +23,51 @@ void setSpeedL(uint8_t speed)
 
 
 
- void Task1(void *pvParameters) {
+ void MotorR(void *pvParameters) {
   (void)pvParameters; /* parameter not used */
   
   TickType_t xLastWakeTime;
   TickType_t xFrequency = 1000;
   xLastWakeTime = xTaskGetTickCount();
   
-  //FRTOS_vTaskDelay(10/portTICK_RATE_MS); //super codezeile von michi
   
-  LDD_TDeviceData *speed_R_DeviceData; // needed for nothing
+  //LDD_TDeviceData *speed_R_DeviceData; // needed for nothing
   for(;;) {
  // do something
 	  xFrequency = speedR;
-	  
+	  xFrequency = 800; //Test Wert
 	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency/portTICK_RATE_MS); 	// wait milisec
 	  speed_R_SetVal(speed_R_DeviceData);									// pos Flanke
 	  
 	  xFrequency = 10;														
-	  
-	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency);					// wait short
+	  xFrequency = 400; //Test Wert
+	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency/portTICK_RATE_MS);	// wait short
 	  speed_R_ClrVal(speed_R_DeviceData);									// neg Flanke
 	  
 	  DIR_R_ClrVal(DIR_R_DeviceData); // Richtung definieren 0
-	  //DIR_R_ClrVal(DIR_R_DeviceData); // Richtung definieren 0
+	  
   }
 }
 
  
  void Motor(void *pvParameters) {
   (void)pvParameters; /* parameter not used */
-  int test;
+  
+  TickType_t xLastWakeTime;
+  TickType_t xFrequency = 1000;
+  xLastWakeTime = xTaskGetTickCount();
+  
+  
   for(;;) {
-	 // DIR_SetVal(DIR_DeviceData);
-	  //WAIT1_Waitms(500);
-	 // DIR_ClrVal(DIR_DeviceData);
+
+	  xFrequency = 400; //Test Wert
+	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency/portTICK_RATE_MS); 	// wait milisec
+					
+	  LED1_Neg(); // für Testzweck
+	  												
+	  xFrequency = 200; //Test Wert
+	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency/portTICK_RATE_MS);	// wait short
+	  									// neg Flanke
+	  LED1_Neg(); // für Testzweck
   }
 }

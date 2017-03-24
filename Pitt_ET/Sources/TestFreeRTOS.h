@@ -16,5 +16,5 @@
 
 #endif /* TESTFREERTOS_H_ */
 
- void Task1(void*);
+ void MotorR(void*);
  void Motor(void*);

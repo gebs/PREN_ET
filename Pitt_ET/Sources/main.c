@@ -39,6 +39,9 @@
 #include "speed_L.h"
 #include "DIR_R.h"
 #include "WAIT1.h"
+#include "LED1.h"
+#include "LEDpin1.h"
+#include "BitIoLdd1.h"
 #include "Test.h"
 //#include "Test.h"
 /* Including shared modules, which are used for whole project */
@@ -70,8 +73,8 @@ int main(void)
   
   //Hier müssen alle Tasks gestartet werden.
   
-  if (FRTOS1_xTaskCreate(	Task1,  /* pointer to the task */
-		  	  	  	  	  	(signed portCHAR *)"Task1", /* task name for kernel awareness debugging */
+  if (FRTOS1_xTaskCreate(	MotorR,  /* pointer to the task */
+		  	  	  	  	  	(signed portCHAR *)"MotorR", /* task name for kernel awareness debugging */
 		  	  	  	  	  	configMINIMAL_STACK_SIZE, /* task stack size */
 		  	  	  	  	  	(void*)NULL, /* optional task startup argument */
 		  	  	  	  	  	tskIDLE_PRIORITY,  /* initial priority */
@@ -97,7 +100,7 @@ int main(void)
   
   /*****************************************************/
   while(1){
-	
+	  
 	  
 	  
 	  

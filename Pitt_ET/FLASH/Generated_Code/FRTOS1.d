@@ -57,6 +57,11 @@ Generated_Code/FRTOS1.o: ../Generated_Code/FRTOS1.c \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/KSDK1.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/FreeRTOS.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/task.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LED1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LEDpin1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/BitIoLdd1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LEDpin1.h \
+ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/BitIoLdd1.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Test.h \
  ../Generated_Code/portTicks.h
 
@@ -195,6 +200,16 @@ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_E
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/FreeRTOS.h:
 
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/task.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LED1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LEDpin1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/BitIoLdd1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/LEDpin1.h:
+
+C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/BitIoLdd1.h:
 
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Test.h:
 

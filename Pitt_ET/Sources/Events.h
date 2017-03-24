@@ -43,6 +43,9 @@
 #include "speed_L.h"
 #include "DIR_R.h"
 #include "WAIT1.h"
+#include "LED1.h"
+#include "LEDpin1.h"
+#include "BitIoLdd1.h"
 #include "Test.h"
 
 #ifdef __cplusplus
