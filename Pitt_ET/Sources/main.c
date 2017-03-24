@@ -85,6 +85,17 @@ int main(void)
   }
   
   
+  if (FRTOS1_xTaskCreate(	MotorL,  /* pointer to the task */
+		  	  	  	  	  	(signed portCHAR *)"MotorL", /* task name for kernel awareness debugging */
+		  	  	  	  	  	configMINIMAL_STACK_SIZE, /* task stack size */
+		  	  	  	  	  	(void*)NULL, /* optional task startup argument */
+		  	  	  	  	  	tskIDLE_PRIORITY,  /* initial priority */
+		  	  	  	  	  	(xTaskHandle*)NULL /* optional task handle to create */
+     	 	 	 	 	 	 ) != pdPASS)
+  {
+     for(;;){}; /* Out of heap memory? */
+  }
+  
   if (FRTOS1_xTaskCreate(	Motor,  /* pointer to the task */
 		  	  	  	  	  	(signed portCHAR *)"Motor", /* task name for kernel awareness debugging */
 		  	  	  	  	  	configMINIMAL_STACK_SIZE, /* task stack size */

@@ -235,7 +235,7 @@
     </GenFiles>
     <SignalListFile>Documentation\Pitt_ET_SIGNALS.txt</SignalListFile>
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>32</ProjectModificationStamp>
+    <ProjectModificationStamp>33</ProjectModificationStamp>
   </Options>
   <CpuID_2>
     <Generated>true</Generated>
@@ -244,7 +244,7 @@
     <GenDriverVersion>01.04</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
     <HeaderAge>1248413368</HeaderAge>
-    <CodeAge>1249401285</CodeAge>
+    <CodeAge>1249403411</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>11</GenNumMethods>
     <SetClockConfiguration>false</SetClockConfiguration>
@@ -3087,8 +3087,8 @@
     <GenComponentVersion>01.033</GenComponentVersion>
     <GenDriverVersion>01.03</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1248872215</HeaderAge>
-    <CodeAge>1248872215</CodeAge>
+    <HeaderAge>1249403411</HeaderAge>
+    <CodeAge>1249403411</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>13</GenNumMethods>
     <Init>true</Init>
@@ -3113,36 +3113,36 @@
       <MethodPos0>Init</MethodPos0>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>119</LineBeg>
-      <LineEnd>142</LineEnd>
+      <LineBeg>122</LineBeg>
+      <LineEnd>145</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos1>GetVal</MethodPos1>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>143</LineBeg>
-      <LineEnd>164</LineEnd>
+      <LineBeg>146</LineBeg>
+      <LineEnd>167</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos2>PutVal</MethodPos2>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>165</LineBeg>
-      <LineEnd>190</LineEnd>
+      <LineBeg>168</LineBeg>
+      <LineEnd>193</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos3>ClrVal</MethodPos3>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>191</LineBeg>
-      <LineEnd>206</LineEnd>
+      <LineBeg>194</LineBeg>
+      <LineEnd>209</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos4>SetVal</MethodPos4>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>207</LineBeg>
-      <LineEnd>222</LineEnd>
+      <LineBeg>210</LineBeg>
+      <LineEnd>225</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos5>Init</MethodPos5>
@@ -3390,8 +3390,8 @@
     <GenComponentVersion>01.033</GenComponentVersion>
     <GenDriverVersion>01.03</GenDriverVersion>
     <GenEventModule />
-    <HeaderAge>1248937361</HeaderAge>
-    <CodeAge>1248937361</CodeAge>
+    <HeaderAge>1249403411</HeaderAge>
+    <CodeAge>1249403411</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>13</GenNumMethods>
     <Init>true</Init>
@@ -3416,36 +3416,36 @@
       <MethodPos0>Init</MethodPos0>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>119</LineBeg>
-      <LineEnd>142</LineEnd>
+      <LineBeg>122</LineBeg>
+      <LineEnd>145</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos1>GetVal</MethodPos1>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>143</LineBeg>
-      <LineEnd>164</LineEnd>
+      <LineBeg>146</LineBeg>
+      <LineEnd>167</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos2>PutVal</MethodPos2>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>165</LineBeg>
-      <LineEnd>190</LineEnd>
+      <LineBeg>168</LineBeg>
+      <LineEnd>193</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos3>ClrVal</MethodPos3>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>191</LineBeg>
-      <LineEnd>206</LineEnd>
+      <LineBeg>194</LineBeg>
+      <LineEnd>209</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos4>SetVal</MethodPos4>
       <MethodType>method</MethodType>
       <ModuleType>Header</ModuleType>
-      <LineBeg>207</LineBeg>
-      <LineEnd>222</LineEnd>
+      <LineBeg>210</LineBeg>
+      <LineEnd>225</LineEnd>
     </MethodPos>
     <MethodPos>
       <MethodPos5>Init</MethodPos5>

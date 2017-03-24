@@ -7,7 +7,7 @@
 **     Version     : Component 01.025, Driver 01.04, CPU db: 3.00.000
 **     Datasheet   : KL25P80M48SF0RM, Rev.3, Sep 2012
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-24, 11:14, # CodeGen: 36
+**     Date/Time   : 2017-03-24, 12:16, # CodeGen: 37
 **     Abstract    :
 **
 **     Settings    :
@@ -259,10 +259,14 @@ void PE_low_level_init(void)
   SIM_PDD_SetClockGate(SIM_BASE_PTR, SIM_PDD_CLOCK_GATE_LPTMR0, PDD_ENABLE);
 #endif
   vPortStopTickTimer(); /* tick timer shall not run until the RTOS scheduler is started */
+  /* ### BitIO_LDD "DIR_L" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
+  (void)DIR_L_Init(NULL);
   /* ### BitIO_LDD "DIR_R" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
   (void)DIR_R_Init(NULL);
   /* ### BitIO_LDD "speed_R" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
   (void)speed_R_Init(NULL);
+  /* ### BitIO_LDD "speed_L" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
+  (void)speed_L_Init(NULL);
   /* ### BitIO_LDD "Test" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
   (void)Test_Init(NULL);
   /* ### BitIO_LDD "BitIoLdd1" component auto initialization. Auto initialization feature can be disabled by component property "Auto initialization". */
