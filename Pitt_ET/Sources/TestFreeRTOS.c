@@ -113,3 +113,60 @@ void setDirL(uint8_t dir)
 	  LED1_Neg(); // für Testzweck
   }
 }
+ 
+ void StateMachine(void *pvParameters) {
+    (void)pvParameters; /* parameter not used */
+    
+    TickType_t xLastWakeTime;
+    TickType_t xFrequency = 1000;		//muss die Statemaschine "ausgebremst" werden?
+    xLastWakeTime = xTaskGetTickCount(); 
+    
+    uint8_t state = 1;	
+    
+    for(;;) {
+   // do something
+  	  
+  	  xFrequency = 800; //Test Wert
+  	  FRTOS1_vTaskDelayUntil(&xLastWakeTime,xFrequency/portTICK_RATE_MS); 	// wait milisec
+  	  
+  	  switch(state){
+  	  case 1:
+  	  	  // Linker oder Rechter Parcour? 
+  	  	  // Hardware Schalter einlesen
+  	  	  state = 2;
+  	  	  break;
+  	  case 2:
+  		  // If Startsymbol via USB erhalten
+  		  state = 3;
+  		  // Else 
+  		  state = 2;
+  		  break;
+  	  case 3:
+  		  // Anfahren
+  		  state = 4;
+  		  break;
+  	  case 4:
+  		  // If zu rechts 
+  		  //	fahre bizi links
+  		  // If zu links
+  		  // 	fahre bizi rechts
+  		  // Else 
+  		  // 	fahre gerade aus
+  		  
+  		  // If Kurve erreicht
+  		  //  	fahre Kurve
+  		  state = 5;
+  		  break;
+  	  case 5:
+  		  // IF Zahl erkannt
+  		  // 	fahre korrekten abstand
+  		  break;
+  	
+  	  
+  	  }
+  	  
+  	  
+  	  
+  	 
+    }
+  }

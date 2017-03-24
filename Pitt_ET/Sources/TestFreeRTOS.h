@@ -33,5 +33,6 @@
  // Tasks
  void MotorR(void*);
  void MotorL(void*);
+ void StateMachine(void*);
  void Motor(void*);
  
