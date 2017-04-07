@@ -6,7 +6,7 @@
 **     Component   : FreeRTOS
 **     Version     : Component 01.508, Driver 01.00, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-03-16, 09:30, # CodeGen: 21
+**     Date/Time   : 2017-04-07, 10:25, # CodeGen: 46
 **     Abstract    :
 **          This component implements the FreeRTOS Realtime Operating System
 **     Settings    :
@@ -54,7 +54,7 @@
 **            TaskExitError Handler                        : no
 **          Ticks                                          : Settings for the periodic tick timer
 **            Tickless Idle Mode                           : Disabled
-**            Tick Rate (Hz)                               : 100
+**            Tick Rate (Hz)                               : 1000
 **            Use 16bit ticks                              : no
 **            non-LDD Tick                                 : Disabled
 **            LDD Tick                                     : Disabled

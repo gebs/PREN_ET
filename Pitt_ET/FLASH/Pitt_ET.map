@@ -81,7 +81,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Generated_Code/timers.o
  .debug_macinfo
-                0x00000000    0x101b2 ./Generated_Code/timers.o
+                0x00000000    0x101b3 ./Generated_Code/timers.o
  .debug_line    0x00000000      0x2fd ./Generated_Code/timers.o
  .debug_str     0x00000000      0x15a ./Generated_Code/timers.o
  .comment       0x00000000       0x7a ./Generated_Code/timers.o
@@ -249,7 +249,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000      0x108 ./Generated_Code/queue.o
  .debug_macinfo
-                0x00000000     0xfc64 ./Generated_Code/queue.o
+                0x00000000     0xfc65 ./Generated_Code/queue.o
  .debug_line    0x00000000      0x79b ./Generated_Code/queue.o
  .debug_str     0x00000000      0x784 ./Generated_Code/queue.o
  .comment       0x00000000       0x7a ./Generated_Code/queue.o
@@ -284,7 +284,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Generated_Code/heap_5.o
  .debug_macinfo
-                0x00000000     0x374c ./Generated_Code/heap_5.o
+                0x00000000     0x374d ./Generated_Code/heap_5.o
  .debug_line    0x00000000       0xfb ./Generated_Code/heap_5.o
  .debug_str     0x00000000       0xc2 ./Generated_Code/heap_5.o
  .comment       0x00000000       0x7a ./Generated_Code/heap_5.o
@@ -307,7 +307,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Generated_Code/heap_3.o
  .debug_macinfo
-                0x00000000     0x374c ./Generated_Code/heap_3.o
+                0x00000000     0x374d ./Generated_Code/heap_3.o
  .debug_line    0x00000000       0xfb ./Generated_Code/heap_3.o
  .debug_str     0x00000000       0xc2 ./Generated_Code/heap_3.o
  .comment       0x00000000       0x7a ./Generated_Code/heap_3.o
@@ -321,7 +321,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Generated_Code/heap_2.o
  .debug_macinfo
-                0x00000000     0x374c ./Generated_Code/heap_2.o
+                0x00000000     0x374d ./Generated_Code/heap_2.o
  .debug_line    0x00000000       0xfb ./Generated_Code/heap_2.o
  .debug_str     0x00000000       0xc2 ./Generated_Code/heap_2.o
  .comment       0x00000000       0x7a ./Generated_Code/heap_2.o
@@ -335,7 +335,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Generated_Code/heap_1.o
  .debug_macinfo
-                0x00000000     0x374c ./Generated_Code/heap_1.o
+                0x00000000     0x374d ./Generated_Code/heap_1.o
  .debug_line    0x00000000       0xfb ./Generated_Code/heap_1.o
  .debug_str     0x00000000       0xc2 ./Generated_Code/heap_1.o
  .comment       0x00000000       0x7a ./Generated_Code/heap_1.o
@@ -370,7 +370,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x68 ./Generated_Code/event_groups.o
  .debug_macinfo
-                0x00000000     0xfc09 ./Generated_Code/event_groups.o
+                0x00000000     0xfc0a ./Generated_Code/event_groups.o
  .debug_line    0x00000000      0x48a ./Generated_Code/event_groups.o
  .debug_str     0x00000000      0x4c1 ./Generated_Code/event_groups.o
  .comment       0x00000000       0x7a ./Generated_Code/event_groups.o
@@ -385,7 +385,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x18 ./Generated_Code/croutine.o
  .debug_macinfo
-                0x00000000     0xf679 ./Generated_Code/croutine.o
+                0x00000000     0xf67a ./Generated_Code/croutine.o
  .debug_line    0x00000000      0x2d4 ./Generated_Code/croutine.o
  .debug_str     0x00000000      0x15c ./Generated_Code/croutine.o
  .comment       0x00000000       0x7a ./Generated_Code/croutine.o
@@ -410,7 +410,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x40 ./Generated_Code/WAIT1.o
  .debug_macinfo
-                0x00000000    0x32663 ./Generated_Code/WAIT1.o
+                0x00000000    0x32664 ./Generated_Code/WAIT1.o
  .debug_line    0x00000000      0x408 ./Generated_Code/WAIT1.o
  .debug_str     0x00000000      0x1d5 ./Generated_Code/WAIT1.o
  .comment       0x00000000       0x7a ./Generated_Code/WAIT1.o
@@ -589,7 +589,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x20 ./Generated_Code/TU1.o
  .debug_macinfo
-                0x00000000    0x334f3 ./Generated_Code/TU1.o
+                0x00000000    0x334f4 ./Generated_Code/TU1.o
  .debug_line    0x00000000      0x41c ./Generated_Code/TU1.o
  .debug_str     0x00000000      0x30a ./Generated_Code/TU1.o
  .comment       0x00000000       0x7a ./Generated_Code/TU1.o
@@ -657,7 +657,7 @@ Discarded input sections
  .debug_aranges
                 0x00000000       0x30 ./Generated_Code/FRTOS1.o
  .debug_macinfo
-                0x00000000    0x3a1ee ./Generated_Code/FRTOS1.o
+                0x00000000    0x3a1ef ./Generated_Code/FRTOS1.o
  .debug_line    0x00000000      0x69a ./Generated_Code/FRTOS1.o
  .debug_str     0x00000000      0x1a5 ./Generated_Code/FRTOS1.o
  .comment       0x00000000       0x7a ./Generated_Code/FRTOS1.o
@@ -949,8 +949,8 @@ LOAD ./Sources/main.o
 LOAD ./Sources/TestFreeRTOS.o
 LOAD ./Sources/Motor.o
 LOAD ./Sources/Events.o
-                0x00001f2c                __pformatter = __pformatter_
-                [0x00002354]                __sformatter = __sformatter
+                0x00001e30                __pformatter = __pformatter_
+                [0x00002258]                __sformatter = __sformatter
 START GROUP
 LOAD C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a
 LOAD C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libm.a
@@ -978,7 +978,7 @@ END GROUP
                 0x00000400                _cfm
                 0x00000410                . = ALIGN (0x4)
 
-.text           0x00000410     0x2b18
+.text           0x00000410     0x29f4
                 0x00000410                . = ALIGN (0x4)
  *(.text)
  .text          0x00000410       0x14 c:/users/martina m/documents/hslu_pren projekt beispiele/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_thumb1_case_sqi.o)
@@ -1160,100 +1160,95 @@ END GROUP
  .text._ExitProcess
                 0x000019f0        0xc ./Project_Settings/Startup_Code/__arm_end.o
                 0x000019f0                _ExitProcess
- .text.main     0x000019fc       0xb0 ./Sources/main.o
+ .text.main     0x000019fc       0x88 ./Sources/main.o
                 0x000019fc                main
- .text.MotorR   0x00001aac       0x9c ./Sources/TestFreeRTOS.o
-                0x00001aac                MotorR
- .text.MotorL   0x00001b48       0x9c ./Sources/TestFreeRTOS.o
-                0x00001b48                MotorL
- .text.Motor    0x00001be4       0x6c ./Sources/TestFreeRTOS.o
-                0x00001be4                Motor
- .text.StateMachine
-                0x00001c50       0x8c ./Sources/TestFreeRTOS.o
-                0x00001c50                StateMachine
+ .text.MotorR   0x00001a84       0x84 ./Sources/TestFreeRTOS.o
+                0x00001a84                MotorR
+ .text.MotorL   0x00001b08       0x84 ./Sources/TestFreeRTOS.o
+                0x00001b08                MotorL
+ .text.Motor    0x00001b8c       0x54 ./Sources/TestFreeRTOS.o
+                0x00001b8c                Motor
  .text.Cpu_OnNMIINT
-                0x00001cdc        0x8 ./Sources/Events.o
-                0x00001cdc                Cpu_OnNMIINT
+                0x00001be0        0x8 ./Sources/Events.o
+                0x00001be0                Cpu_OnNMIINT
  .text.FRTOS1_vApplicationStackOverflowHook
-                0x00001ce4       0x10 ./Sources/Events.o
-                0x00001ce4                FRTOS1_vApplicationStackOverflowHook
+                0x00001be8       0x10 ./Sources/Events.o
+                0x00001be8                FRTOS1_vApplicationStackOverflowHook
  .text.FRTOS1_vApplicationTickHook
-                0x00001cf4        0x8 ./Sources/Events.o
-                0x00001cf4                FRTOS1_vApplicationTickHook
+                0x00001bf8        0x8 ./Sources/Events.o
+                0x00001bf8                FRTOS1_vApplicationTickHook
  .text.FRTOS1_vApplicationIdleHook
-                0x00001cfc        0x8 ./Sources/Events.o
-                0x00001cfc                FRTOS1_vApplicationIdleHook
+                0x00001c00        0x8 ./Sources/Events.o
+                0x00001c00                FRTOS1_vApplicationIdleHook
  .text.FRTOS1_vApplicationMallocFailedHook
-                0x00001d04        0x8 ./Sources/Events.o
-                0x00001d04                FRTOS1_vApplicationMallocFailedHook
- .text.exit     0x00001d0c       0x38 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
-                0x00001d0c                exit
- .text.memcpy   0x00001d44       0x12 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
-                0x00001d44                memcpy
- .text.memset   0x00001d56        0xc C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
-                0x00001d56                memset
- .text.strchr   0x00001d62       0x1e C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
-                0x00001d62                strchr
- .text.strlen   0x00001d80       0x10 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
-                0x00001d80                strlen
+                0x00001c08        0x8 ./Sources/Events.o
+                0x00001c08                FRTOS1_vApplicationMallocFailedHook
+ .text.exit     0x00001c10       0x38 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                0x00001c10                exit
+ .text.memcpy   0x00001c48       0x12 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+                0x00001c48                memcpy
+ .text.memset   0x00001c5a        0xc C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+                0x00001c5a                memset
+ .text.strchr   0x00001c66       0x1e C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+                0x00001c66                strchr
+ .text.strlen   0x00001c84       0x10 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+                0x00001c84                strlen
  .text.long2str.isra.0
-                0x00001d90      0x19c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+                0x00001c94      0x19c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
  .text.__pformatter_
-                0x00001f2c      0x428 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
-                0x00001f2c                __pformatter_
+                0x00001e30      0x428 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+                0x00001e30                __pformatter_
  .text.__sformatter
-                0x00002354      0x698 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
-                0x00002354                __sformatter
- .text.isalpha  0x000029ec       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x000029ec                isalpha
- .text.isspace  0x00002a0c       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x00002a0c                isspace
- .text.toupper  0x00002a2c        0xe C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x00002a2c                toupper
+                0x00002258      0x698 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
+                0x00002258                __sformatter
+ .text.isalpha  0x000028f0       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x000028f0                isalpha
+ .text.isspace  0x00002910       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x00002910                isspace
+ .text.toupper  0x00002930        0xe C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x00002930                toupper
  .text.__strtoul
-                0x00002a3a      0x1ce C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
-                0x00002a3a                __strtoul
+                0x0000293e      0x1ce C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+                0x0000293e                __strtoul
  .text.__fill_mem
-                0x00002c08       0x7e C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
-                0x00002c08                __fill_mem
- .text.memchr   0x00002c86       0x1a C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
-                0x00002c86                memchr
+                0x00002b0c       0x7e C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+                0x00002b0c                __fill_mem
+ .text.memchr   0x00002b8a       0x1a C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+                0x00002b8a                memchr
  .text.__init_cpp
-                0x00002ca0       0x48 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
-                0x00002ca0                __init_cpp
+                0x00002ba4       0x48 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00002ba4                __init_cpp
  .text.__fini_cpp
-                0x00002ce8       0x34 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
-                0x00002ce8                __fini_cpp
+                0x00002bec       0x34 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x00002bec                __fini_cpp
  .text.__copy_rom_section
-                0x00002d1c       0x48 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
-                0x00002d1c                __copy_rom_section
+                0x00002c20       0x48 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                0x00002c20                __copy_rom_section
  .text.__copy_rom_sections_to_ram
-                0x00002d64       0x34 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
-                0x00002d64                __copy_rom_sections_to_ram
+                0x00002c68       0x34 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                0x00002c68                __copy_rom_sections_to_ram
  .text.__destroy_global_chain
-                0x00002d98       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
-                0x00002d98                __destroy_global_chain
+                0x00002c9c       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00002c9c                __destroy_global_chain
  .text.__init_registers
-                0x00002db4       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
-                0x00002db4                __init_registers
+                0x00002cb8       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00002cb8                __init_registers
  .text.__init_user
-                0x00002dd0        0x4 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
-                0x00002dd0                __init_user
+                0x00002cd4        0x4 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00002cd4                __init_user
  *(.rodata)
- .rodata        0x00002dd4        0x8 ./Generated_Code/tasks.o
- .rodata        0x00002ddc       0x28 ./Sources/main.o
+ .rodata        0x00002cd8        0x8 ./Generated_Code/tasks.o
+ .rodata        0x00002ce0       0x18 ./Sources/main.o
  *(.rodata*)
- .rodata.StateMachine
-                0x00002e04       0x18 ./Sources/TestFreeRTOS.o
  .rodata.str1.1
-                0x00002e1c        0x1 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+                0x00002cf8        0x1 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
  .rodata.CSWTCH.20
-                0x00002e1d        0x5 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+                0x00002cf9        0x5 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
  .rodata.CSWTCH.21
-                0x00002e22        0x5 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+                0x00002cfe        0x5 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
  .rodata.__aeabi_ctype_table_C
-                0x00002e27      0x101 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
-                0x00002e27                __aeabi_ctype_table_C
+                0x00002d03      0x101 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x00002d03                __aeabi_ctype_table_C
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.glue_7t)
@@ -1261,62 +1256,62 @@ END GROUP
  *(.eh_frame)
  *(.init)
  *(.fini)
-                0x00002f28                . = ALIGN (0x4)
-                0x00002f28                _etext = .
+                0x00002e04                . = ALIGN (0x4)
+                0x00002e04                _etext = .
 
-.vfp11_veneer   0x00002f28        0x0
+.vfp11_veneer   0x00002e04        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00002f28        0x0
+.v4_bx          0x00002e04        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00002f28        0x0
+.iplt           0x00002e04        0x0
  .iplt          0x00000000        0x0 ./Generated_Code/timers.o
 
-.rel.dyn        0x00002f28        0x0
+.rel.dyn        0x00002e04        0x0
  .rel.iplt      0x00000000        0x0 ./Generated_Code/timers.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x00002f28        0x0
-                0x00002f28                __exidx_start = .
+.ARM            0x00002e04        0x0
+                0x00002e04                __exidx_start = .
  *(.ARM.exidx*)
-                0x00002f28                __exidx_end = .
+                0x00002e04                __exidx_end = .
 
-.ctors          0x00002f28        0x0
-                0x00002f28                __CTOR_LIST__ = .
+.ctors          0x00002e04        0x0
+                0x00002e04                __CTOR_LIST__ = .
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *(.ctors)
-                0x00002f28                __CTOR_END__ = .
+                0x00002e04                __CTOR_END__ = .
 
-.dtors          0x00002f28        0x0
-                0x00002f28                __DTOR_LIST__ = .
+.dtors          0x00002e04        0x0
+                0x00002e04                __DTOR_LIST__ = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *(.dtors)
-                0x00002f28                __DTOR_END__ = .
+                0x00002e04                __DTOR_END__ = .
 
-.preinit_array  0x00002f28        0x0
-                0x00002f28                PROVIDE (__preinit_array_start, .)
+.preinit_array  0x00002e04        0x0
+                0x00002e04                PROVIDE (__preinit_array_start, .)
  *(.preinit_array*)
-                0x00002f28                PROVIDE (__preinit_array_end, .)
+                0x00002e04                PROVIDE (__preinit_array_end, .)
 
-.init_array     0x00002f28        0x0
-                0x00002f28                PROVIDE (__init_array_start, .)
+.init_array     0x00002e04        0x0
+                0x00002e04                PROVIDE (__init_array_start, .)
  *(SORT(.init_array.*))
  *(.init_array*)
-                0x00002f28                PROVIDE (__init_array_end, .)
+                0x00002e04                PROVIDE (__init_array_end, .)
 
-.fini_array     0x00002f28        0x0
-                0x00002f28                PROVIDE (__fini_array_start, .)
+.fini_array     0x00002e04        0x0
+                0x00002e04                PROVIDE (__fini_array_start, .)
  *(SORT(.fini_array.*))
  *(.fini_array*)
-                0x00002f28                PROVIDE (__fini_array_end, .)
-                0x00002f28                ___ROM_AT = .
+                0x00002e04                PROVIDE (__fini_array_end, .)
+                0x00002e04                ___ROM_AT = .
 
 .mtb            0x1ffff000        0x0
                 0x1ffff000                . = ALIGN (0x8)
@@ -1325,7 +1320,7 @@ END GROUP
                 0x1ffff000                . = ALIGN (0x8)
                 0x1ffff000                _mtb_end = .
 
-.data           0x1ffff000        0xc load address 0x00002f28
+.data           0x1ffff000        0xc load address 0x00002e04
                 0x1ffff000                . = ALIGN (0x4)
                 0x1ffff000                _sdata = .
  *(.data)
@@ -1341,11 +1336,11 @@ END GROUP
                 0x1ffff00c                _edata = .
                 0x0000000c                ___data_size = (_edata - _sdata)
 
-.igot.plt       0x1ffff00c        0x0 load address 0x00002f34
+.igot.plt       0x1ffff00c        0x0 load address 0x00002e10
  .igot.plt      0x00000000        0x0 ./Generated_Code/timers.o
                 0x1ffff00c                . = ALIGN (0x4)
 
-.bss            0x1ffff00c      0x978 load address 0x00002f34
+.bss            0x1ffff00c      0x978 load address 0x00002e10
                 0x1ffff00c                __START_BSS = .
                 0x1ffff00c                PROVIDE (__bss_start__, __START_BSS)
  *(.bss)
@@ -1434,11 +1429,11 @@ END GROUP
  *fill*         0x1ffff981        0x3 00
                 0x1ffff984                __END_BSS = .
                 0x1ffff984                PROVIDE (__bss_end__, __END_BSS)
-                0x00002f34                _romp_at = (___ROM_AT + SIZEOF (.data))
+                0x00002e10                _romp_at = (___ROM_AT + SIZEOF (.data))
 
-.romp           0x1ffff984       0x18 load address 0x00002f34
-                0x00002f34                __S_romp = _romp_at
-                0x1ffff984        0x4 LONG 0x2f28 ___ROM_AT
+.romp           0x1ffff984       0x18 load address 0x00002e10
+                0x00002e10                __S_romp = _romp_at
+                0x1ffff984        0x4 LONG 0x2e04 ___ROM_AT
                 0x1ffff988        0x4 LONG 0x1ffff000 _sdata
                 0x1ffff98c        0x4 LONG 0xc ___data_size
                 0x1ffff990        0x4 LONG 0x0
@@ -1446,7 +1441,7 @@ END GROUP
                 0x1ffff998        0x4 LONG 0x0
 
 ._user_heap_stack
-                0x1ffff99c      0x400 load address 0x00002f4c
+                0x1ffff99c      0x400 load address 0x00002e28
                 0x1ffff99c                . = ALIGN (0x4)
                 0x1ffff99c                PROVIDE (end, .)
                 0x1ffff99c                PROVIDE (_end, .)
@@ -1535,7 +1530,7 @@ END GROUP
                 0x00000698       0x31 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 OUTPUT(Pitt_ET.elf elf32-littlearm)
 
-.debug_info     0x00000000     0x62f7
+.debug_info     0x00000000     0x62a5
  .debug_info    0x00000000     0x1536 ./Generated_Code/tasks.o
  .debug_info    0x00001536      0x3a0 ./Generated_Code/speed_R.o
  .debug_info    0x000018d6      0x3a0 ./Generated_Code/speed_L.o
@@ -1553,22 +1548,22 @@ OUTPUT(Pitt_ET.elf elf32-littlearm)
  .debug_info    0x000040c3      0x12a ./Project_Settings/Startup_Code/__arm_start.o
  .debug_info    0x000041ed       0x54 ./Project_Settings/Startup_Code/__arm_end.o
  .debug_info    0x00004241       0xb9 ./Sources/main.o
- .debug_info    0x000042fa      0x2cb ./Sources/TestFreeRTOS.o
- .debug_info    0x000045c5      0x11a ./Sources/Events.o
- .debug_info    0x000046df       0xe8 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
- .debug_info    0x000047c7      0x10f C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
- .debug_info    0x000048d6       0xec C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
- .debug_info    0x000049c2      0x10b C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
- .debug_info    0x00004acd       0xea C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
- .debug_info    0x00004bb7      0x50d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
- .debug_info    0x000050c4      0x568 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
- .debug_info    0x0000562c      0x313 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
- .debug_info    0x0000593f      0x1d6 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
- .debug_info    0x00005b15      0x137 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
- .debug_info    0x00005c4c      0x121 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
- .debug_info    0x00005d6d      0x136 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
- .debug_info    0x00005ea3      0x19b C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
- .debug_info    0x0000603e      0x2b9 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_info    0x000042fa      0x279 ./Sources/TestFreeRTOS.o
+ .debug_info    0x00004573      0x11a ./Sources/Events.o
+ .debug_info    0x0000468d       0xe8 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_info    0x00004775      0x10f C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_info    0x00004884       0xec C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_info    0x00004970      0x10b C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_info    0x00004a7b       0xea C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_info    0x00004b65      0x50d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+ .debug_info    0x00005072      0x568 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
+ .debug_info    0x000055da      0x313 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_info    0x000058ed      0x1d6 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_info    0x00005ac3      0x137 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_info    0x00005bfa      0x121 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_info    0x00005d1b      0x136 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_info    0x00005e51      0x19b C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_info    0x00005fec      0x2b9 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
 .debug_abbrev   0x00000000     0x1e1c
  .debug_abbrev  0x00000000      0x1d2 ./Generated_Code/tasks.o
@@ -1605,7 +1600,7 @@ OUTPUT(Pitt_ET.elf elf32-littlearm)
  .debug_abbrev  0x00001b49      0x120 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
  .debug_abbrev  0x00001c69      0x1b3 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_loc      0x00000000     0x4258
+.debug_loc      0x00000000     0x4220
  .debug_loc     0x00000000      0xae1 ./Generated_Code/tasks.o
  .debug_loc     0x00000ae1      0x118 ./Generated_Code/speed_R.o
  .debug_loc     0x00000bf9      0x118 ./Generated_Code/speed_L.o
@@ -1622,24 +1617,24 @@ OUTPUT(Pitt_ET.elf elf32-littlearm)
  .debug_loc     0x00001829       0x2c ./Project_Settings/Startup_Code/__arm_start.o
  .debug_loc     0x00001855       0x38 ./Project_Settings/Startup_Code/__arm_end.o
  .debug_loc     0x0000188d       0x38 ./Sources/main.o
- .debug_loc     0x000018c5      0x1c0 ./Sources/TestFreeRTOS.o
- .debug_loc     0x00001a85       0xe8 ./Sources/Events.o
- .debug_loc     0x00001b6d       0x3e C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
- .debug_loc     0x00001bab       0x59 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
- .debug_loc     0x00001c04       0x6f C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
- .debug_loc     0x00001c73       0xaf C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
- .debug_loc     0x00001d22       0x33 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
- .debug_loc     0x00001d55     0x104b C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
- .debug_loc     0x00002da0      0x9d8 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
- .debug_loc     0x00003778      0x30d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
- .debug_loc     0x00003a85      0x305 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
- .debug_loc     0x00003d8a      0x14a C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
- .debug_loc     0x00003ed4       0x77 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
- .debug_loc     0x00003f4b       0x9d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
- .debug_loc     0x00003fe8       0xd9 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
- .debug_loc     0x000040c1      0x197 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_loc     0x000018c5      0x188 ./Sources/TestFreeRTOS.o
+ .debug_loc     0x00001a4d       0xe8 ./Sources/Events.o
+ .debug_loc     0x00001b35       0x3e C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_loc     0x00001b73       0x59 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_loc     0x00001bcc       0x6f C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_loc     0x00001c3b       0xaf C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_loc     0x00001cea       0x33 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_loc     0x00001d1d     0x104b C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+ .debug_loc     0x00002d68      0x9d8 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
+ .debug_loc     0x00003740      0x30d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_loc     0x00003a4d      0x305 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_loc     0x00003d52      0x14a C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_loc     0x00003e9c       0x77 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_loc     0x00003f13       0x9d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_loc     0x00003fb0       0xd9 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_loc     0x00004089      0x197 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_aranges  0x00000000      0x888
+.debug_aranges  0x00000000      0x880
  .debug_aranges
                 0x00000000      0x1b0 ./Generated_Code/tasks.o
  .debug_aranges
@@ -1675,79 +1670,79 @@ OUTPUT(Pitt_ET.elf elf32-littlearm)
  .debug_aranges
                 0x00000550       0x20 ./Sources/main.o
  .debug_aranges
-                0x00000570       0x58 ./Sources/TestFreeRTOS.o
+                0x00000570       0x50 ./Sources/TestFreeRTOS.o
  .debug_aranges
-                0x000005c8       0x40 ./Sources/Events.o
+                0x000005c0       0x40 ./Sources/Events.o
  .debug_aranges
-                0x00000608       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+                0x00000600       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
  .debug_aranges
-                0x00000628       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+                0x00000620       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
  .debug_aranges
-                0x00000648       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+                0x00000640       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
  .debug_aranges
-                0x00000668       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+                0x00000660       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
  .debug_aranges
-                0x00000688       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+                0x00000680       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
  .debug_aranges
-                0x000006a8       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+                0x000006a0       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
  .debug_aranges
-                0x000006d0       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
+                0x000006c8       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
  .debug_aranges
-                0x000006f0       0x88 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+                0x000006e8       0x88 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
  .debug_aranges
-                0x00000778       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+                0x00000770       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
  .debug_aranges
-                0x00000798       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+                0x00000790       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
  .debug_aranges
-                0x000007b8       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+                0x000007b0       0x20 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
  .debug_aranges
-                0x000007d8       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+                0x000007d0       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
  .debug_aranges
-                0x00000800       0x30 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+                0x000007f8       0x30 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
  .debug_aranges
-                0x00000830       0x58 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+                0x00000828       0x58 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_macinfo  0x00000000   0x31eb2e
+.debug_macinfo  0x00000000   0x31eb3e
  .debug_macinfo
-                0x00000000    0x10246 ./Generated_Code/tasks.o
+                0x00000000    0x10247 ./Generated_Code/tasks.o
  .debug_macinfo
-                0x00010246    0x323d5 ./Generated_Code/speed_R.o
+                0x00010247    0x323d6 ./Generated_Code/speed_R.o
  .debug_macinfo
-                0x0004261b    0x323d5 ./Generated_Code/speed_L.o
+                0x0004261d    0x323d6 ./Generated_Code/speed_L.o
  .debug_macinfo
-                0x000749f0    0x32b85 ./Generated_Code/port.o
+                0x000749f3    0x32b86 ./Generated_Code/port.o
  .debug_macinfo
-                0x000a7575     0xeb52 ./Generated_Code/list.o
+                0x000a7579     0xeb53 ./Generated_Code/list.o
  .debug_macinfo
-                0x000b60c7     0xf1ef ./Generated_Code/heap_4.o
+                0x000b60cc     0xf1f0 ./Generated_Code/heap_4.o
  .debug_macinfo
-                0x000c52b6    0x3a0a9 ./Generated_Code/Vectors.o
+                0x000c52bc    0x3a0aa ./Generated_Code/Vectors.o
  .debug_macinfo
-                0x000ff35f    0x323b1 ./Generated_Code/Test.o
+                0x000ff366    0x323b2 ./Generated_Code/Test.o
  .debug_macinfo
-                0x00131710    0x3a060 ./Generated_Code/PE_LDD.o
+                0x00131718    0x3a061 ./Generated_Code/PE_LDD.o
  .debug_macinfo
-                0x0016b770    0x2f017 ./Generated_Code/LED1.o
+                0x0016b779    0x2f017 ./Generated_Code/LED1.o
  .debug_macinfo
-                0x0019a787    0x323bd ./Generated_Code/DIR_R.o
+                0x0019a790    0x323be ./Generated_Code/DIR_R.o
  .debug_macinfo
-                0x001ccb44    0x323bd ./Generated_Code/DIR_L.o
+                0x001ccb4e    0x323be ./Generated_Code/DIR_L.o
  .debug_macinfo
-                0x001fef01    0x3a0a4 ./Generated_Code/Cpu.o
+                0x001fef0c    0x3a0a5 ./Generated_Code/Cpu.o
  .debug_macinfo
-                0x00238fa5    0x323f3 ./Generated_Code/BitIoLdd1.o
+                0x00238fb1    0x323f4 ./Generated_Code/BitIoLdd1.o
  .debug_macinfo
-                0x0026b398     0x3e6d ./Project_Settings/Startup_Code/__arm_start.o
+                0x0026b3a5     0x3e6d ./Project_Settings/Startup_Code/__arm_start.o
  .debug_macinfo
-                0x0026f205     0x3456 ./Project_Settings/Startup_Code/__arm_end.o
+                0x0026f212     0x3456 ./Project_Settings/Startup_Code/__arm_end.o
  .debug_macinfo
-                0x0027265b    0x3a0b8 ./Sources/main.o
+                0x00272668    0x3a0b9 ./Sources/main.o
  .debug_macinfo
-                0x002ac713    0x38392 ./Sources/TestFreeRTOS.o
+                0x002ac721    0x38393 ./Sources/TestFreeRTOS.o
  .debug_macinfo
-                0x002e4aa5    0x3a089 ./Sources/Events.o
+                0x002e4ab4    0x3a08a ./Sources/Events.o
 
-.debug_line     0x00000000     0x6ec4
+.debug_line     0x00000000     0x6e9d
  .debug_line    0x00000000      0xa61 ./Generated_Code/tasks.o
  .debug_line    0x00000a61      0x46c ./Generated_Code/speed_R.o
  .debug_line    0x00000ecd      0x46c ./Generated_Code/speed_L.o
@@ -1764,25 +1759,25 @@ OUTPUT(Pitt_ET.elf elf32-littlearm)
  .debug_line    0x00004348      0x46d ./Generated_Code/BitIoLdd1.o
  .debug_line    0x000047b5      0x32b ./Project_Settings/Startup_Code/__arm_start.o
  .debug_line    0x00004ae0      0x33e ./Project_Settings/Startup_Code/__arm_end.o
- .debug_line    0x00004e1e      0x5ca ./Sources/main.o
- .debug_line    0x000053e8      0x62c ./Sources/TestFreeRTOS.o
- .debug_line    0x00005a14      0x5d4 ./Sources/Events.o
- .debug_line    0x00005fe8       0x8d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
- .debug_line    0x00006075       0x8b C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
- .debug_line    0x00006100       0x90 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
- .debug_line    0x00006190       0x7d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
- .debug_line    0x0000620d       0x85 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
- .debug_line    0x00006292      0x2c3 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
- .debug_line    0x00006555      0x2be C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
- .debug_line    0x00006813      0x1be C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
- .debug_line    0x000069d1      0x11e C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
- .debug_line    0x00006aef       0xf6 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
- .debug_line    0x00006be5       0x9f C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
- .debug_line    0x00006c84       0x6c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
- .debug_line    0x00006cf0       0xbd C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
- .debug_line    0x00006dad      0x117 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_line    0x00004e1e      0x5cb ./Sources/main.o
+ .debug_line    0x000053e9      0x604 ./Sources/TestFreeRTOS.o
+ .debug_line    0x000059ed      0x5d4 ./Sources/Events.o
+ .debug_line    0x00005fc1       0x8d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_line    0x0000604e       0x8b C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_line    0x000060d9       0x90 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_line    0x00006169       0x7d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_line    0x000061e6       0x85 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_line    0x0000626b      0x2c3 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+ .debug_line    0x0000652e      0x2be C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
+ .debug_line    0x000067ec      0x1be C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_line    0x000069aa      0x11e C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_line    0x00006ac8       0xf6 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_line    0x00006bbe       0x9f C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_line    0x00006c5d       0x6c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_line    0x00006cc9       0xbd C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_line    0x00006d86      0x117 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_str      0x00000000     0x23f7
+.debug_str      0x00000000     0x23ea
  .debug_str     0x00000000      0xcf8 ./Generated_Code/tasks.o
                                 0xd89 (size before relaxing)
  .debug_str     0x00000cf8      0x180 ./Generated_Code/speed_R.o
@@ -1817,37 +1812,37 @@ OUTPUT(Pitt_ET.elf elf32-littlearm)
                                  0xf5 (size before relaxing)
  .debug_str     0x00001a8b       0x17 ./Sources/main.o
                                 0x17a (size before relaxing)
- .debug_str     0x00001aa2       0x96 ./Sources/TestFreeRTOS.o
-                                0x22a (size before relaxing)
- .debug_str     0x00001b38       0x4d ./Sources/Events.o
+ .debug_str     0x00001aa2       0x89 ./Sources/TestFreeRTOS.o
+                                0x217 (size before relaxing)
+ .debug_str     0x00001b2b       0x4d ./Sources/Events.o
                                 0x200 (size before relaxing)
- .debug_str     0x00001b85       0x54 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_str     0x00001b78       0x54 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
                                 0x157 (size before relaxing)
- .debug_str     0x00001bd9       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_str     0x00001bcc       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
                                 0x138 (size before relaxing)
- .debug_str     0x00001bf5       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_str     0x00001be8       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
                                 0x140 (size before relaxing)
- .debug_str     0x00001c11       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_str     0x00001c04       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
                                 0x137 (size before relaxing)
- .debug_str     0x00001c2d       0x24 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_str     0x00001c20       0x24 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
                                 0x140 (size before relaxing)
- .debug_str     0x00001c51      0x233 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+ .debug_str     0x00001c44      0x233 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
                                 0x3b3 (size before relaxing)
- .debug_str     0x00001e84      0x184 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
+ .debug_str     0x00001e77      0x184 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
                                 0x3f9 (size before relaxing)
- .debug_str     0x00002008       0x9d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_str     0x00001ffb       0x9d C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
                                 0x1bc (size before relaxing)
- .debug_str     0x000020a5       0x61 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_str     0x00002098       0x61 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
                                 0x1fb (size before relaxing)
- .debug_str     0x00002106       0x25 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_str     0x000020f9       0x25 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
                                 0x152 (size before relaxing)
- .debug_str     0x0000212b       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_str     0x0000211e       0x1c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
                                 0x148 (size before relaxing)
- .debug_str     0x00002147      0x126 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_str     0x0000213a      0x126 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
                                 0x181 (size before relaxing)
- .debug_str     0x0000226d       0x9c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_str     0x00002260       0x9c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
                                 0x13c (size before relaxing)
- .debug_str     0x00002309       0xee C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_str     0x000022fc       0xee C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
                                 0x1b5 (size before relaxing)
 
 .comment        0x00000000       0x79
@@ -1886,7 +1881,7 @@ OUTPUT(Pitt_ET.elf elf32-littlearm)
  .comment       0x00000000       0x7a C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
  .comment       0x00000000       0x7a C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
 
-.debug_frame    0x00000000     0x1604
+.debug_frame    0x00000000     0x15e4
  .debug_frame   0x00000000      0x658 ./Generated_Code/tasks.o
  .debug_frame   0x00000658       0xb0 ./Generated_Code/speed_R.o
  .debug_frame   0x00000708       0xb0 ./Generated_Code/speed_L.o
@@ -1903,20 +1898,20 @@ OUTPUT(Pitt_ET.elf elf32-littlearm)
  .debug_frame   0x00000f08       0x4c ./Project_Settings/Startup_Code/__arm_start.o
  .debug_frame   0x00000f54       0x30 ./Project_Settings/Startup_Code/__arm_end.o
  .debug_frame   0x00000f84       0x30 ./Sources/main.o
- .debug_frame   0x00000fb4      0x110 ./Sources/TestFreeRTOS.o
- .debug_frame   0x000010c4       0xa0 ./Sources/Events.o
- .debug_frame   0x00001164       0x2c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
- .debug_frame   0x00001190       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
- .debug_frame   0x000011b8       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
- .debug_frame   0x000011e0       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
- .debug_frame   0x00001208       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
- .debug_frame   0x00001230       0x54 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
- .debug_frame   0x00001284       0x34 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
- .debug_frame   0x000012b8      0x158 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
- .debug_frame   0x00001410       0x30 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
- .debug_frame   0x00001440       0x2c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
- .debug_frame   0x0000146c       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
- .debug_frame   0x00001494       0x20 c:/users/martina m/documents/hslu_pren projekt beispiele/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
- .debug_frame   0x000014b4       0x40 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
- .debug_frame   0x000014f4       0x54 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
- .debug_frame   0x00001548       0xbc C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)
+ .debug_frame   0x00000fb4       0xf0 ./Sources/TestFreeRTOS.o
+ .debug_frame   0x000010a4       0xa0 ./Sources/Events.o
+ .debug_frame   0x00001144       0x2c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(exit.o)
+ .debug_frame   0x00001170       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memcpy.o)
+ .debug_frame   0x00001198       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memset.o)
+ .debug_frame   0x000011c0       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strchr.o)
+ .debug_frame   0x000011e8       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(strlen.o)
+ .debug_frame   0x00001210       0x54 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(printformat_.o)
+ .debug_frame   0x00001264       0x34 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(scanformat_.o)
+ .debug_frame   0x00001298      0x158 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(ctype_aeabi.o)
+ .debug_frame   0x000013f0       0x30 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__strtoul.o)
+ .debug_frame   0x00001420       0x2c C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(__filll_mem.o)
+ .debug_frame   0x0000144c       0x28 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\libc.a(memchr.o)
+ .debug_frame   0x00001474       0x20 c:/users/martina m/documents/hslu_pren projekt beispiele/freescale/cw mcu v10.6/cross_tools/arm-none-eabi-gcc-4_7_3/bin/../lib/gcc/arm-none-eabi/4.7.3/armv6-m\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00001494       0x40 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(gcc_ctor_dtor.o)
+ .debug_frame   0x000014d4       0x54 C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(ROMCopy.o)
+ .debug_frame   0x00001528       0xbc C:/Users/Martina M/Documents/HSLU_PREN Projekt Beispiele/Freescale/CW MCU v10.6/MCU/ARM_GCC_Support/ewl/lib/armv6-m\librt.a(__arm_eabi_init.o)

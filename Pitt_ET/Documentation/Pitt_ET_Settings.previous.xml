@@ -404,7 +404,7 @@ PE_DEBUGHALT();
       </group>
       <group name="Ticks">
         <boolgroup name="Tickless Idle Mode" v="Disabled" />
-        <Tick_Rate__Hz_ v="100" />
+        <Tick_Rate__Hz_ v="10000" />
         <Use_16bit_ticks v="no" />
         <boolgroup name="non-LDD Tick" v="Disabled" />
         <boolgroup name="LDD Tick" v="Disabled" />
@@ -682,7 +682,7 @@ PE_DEBUGHALT();
       <group name="Initialization">
         <Init__direction v="Output" />
         <Init__value v="0" />
-        <Auto_initialization v="no" />
+        <Auto_initialization v="yes" />
       </group>
       <Safe_mode v="no" />
     </Properties>
@@ -778,7 +778,7 @@ PE_DEBUGHALT();
       <group name="Initialization">
         <Init__direction v="Output" />
         <Init__value v="0" />
-        <Auto_initialization v="no" />
+        <Auto_initialization v="yes" />
       </group>
       <Safe_mode v="no" />
     </Properties>
