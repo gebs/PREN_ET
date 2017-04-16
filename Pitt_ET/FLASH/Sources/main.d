@@ -66,10 +66,7 @@ Sources/main.o: ../Sources/main.c \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/BitIoLdd1.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Parcour.h \
  C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Test.h \
- ../Sources/TestFreeRTOS.h \
- C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Wait1.h \
- ../Sources/Motor.h \
- C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Dir_L.h
+ ../Sources/TestFreeRTOS.h ../Sources/Motor.h
 
 C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/Freescale/CW\ MCU\ v10.6/MCU/ARM_GCC_Support/ewl/EWL_C/include/lib_ewl.prefix:
 
@@ -207,8 +204,4 @@ C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_E
 
 ../Sources/TestFreeRTOS.h:
 
-C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Wait1.h:
-
 ../Sources/Motor.h:
-
-C:/Users/Martina\ M/Documents/HSLU_PREN\ Projekt\ Beispiele/PREN2/PREN_ET/Pitt_ET/Generated_Code/Dir_L.h:

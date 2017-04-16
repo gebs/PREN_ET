@@ -8,21 +8,29 @@
 #ifndef MOTOR_H_
 #define MOTOR_H_
 
-/*Boolean*/
-/*typedef int bool;
-#define true 1
-#define false 0
-*/
-#include "Dir_L.h"
-//#include "PWM_R.h"
+
+
+#include "DIR_R.h"
+#include "DIR_L.h"
+#include "speed_R.h"
+#include "speed_L.h"
+
+#include "LED1.h"
+
+#include "FRTOS1.h"
+
 
 
 #endif /* MOTOR_H_ */
 
-
-
-//void speedL(bool , int );
-//void speedL(int , int );
-
-//void speedR(bool , int );
-//void speedR(int, int );
+ // Seter - Methoden
+ void setSpeedR(uint8_t);
+ void setSpeedL(uint8_t);
+ void setDirR(uint8_t);
+ void setDirL(uint8_t);
+ 
+ // Tasks
+ void MotorR(void*);
+ void MotorL(void*);
+ //void StateMachine(void*);
+ void Motor(void*);

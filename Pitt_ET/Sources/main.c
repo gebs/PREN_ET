@@ -108,7 +108,9 @@ int main(void)
      for(;;){}; /* Out of heap memory? */
   }
   
- /* if (FRTOS1_xTaskCreate(	StateMachine,  // pointer to the task 
+  
+
+  /*if (FRTOS1_xTaskCreate(	StateMachine,  // pointer to the task 
 		  	  	  	  	  	(signed portCHAR *)"StateMachine", // task name for kernel awareness debugging 
 		  	  	  	  	  	configMINIMAL_STACK_SIZE, // task stack size 
 		  	  	  	  	  	(void*)NULL, // optional task startup argument 
@@ -117,8 +119,8 @@ int main(void)
      	 	 	 	 	 	 ) != pdPASS)
   {
      for(;;){}; // Out of heap memory? 
-  }
-*/
+  }*/
+
   FRTOS1_vTaskStartScheduler();
   
   /*****************************************************/
