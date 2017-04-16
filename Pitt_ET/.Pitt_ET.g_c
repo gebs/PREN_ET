@@ -18,7 +18,7 @@
         <Line>PE_Const</Line>
         <Line>IO_Map</Line>
       </GenSharedModules>
-      <ShrdHeaderAge0>1249398644</ShrdHeaderAge0>
+      <ShrdHeaderAge0>1250983256</ShrdHeaderAge0>
       <ShrdCodeAge0>-1</ShrdCodeAge0>
       <ShrdAsemblAge0>-1</ShrdAsemblAge0>
       <ShrdHeaderAge1>1248025167</ShrdHeaderAge1>
@@ -30,7 +30,7 @@
       <ShrdHeaderAge3>1248025167</ShrdHeaderAge3>
       <ShrdCodeAge3>-1</ShrdCodeAge3>
       <ShrdAsemblAge3>-1</ShrdAsemblAge3>
-      <GenExtraFiles lines_count="48">
+      <GenExtraFiles lines_count="49">
         <Line>Generated_Code\.gdbinit-FreeRTOS-helpers</Line>
         <Line>Generated_Code\readme_gdbBacktraceDebug.txt</Line>
         <Line>Generated_Code\event_groups.h</Line>
@@ -70,6 +70,7 @@
         <Line>Documentation\doxygen\Test.txt</Line>
         <Line>Documentation\doxygen\TU1.txt</Line>
         <Line>Documentation\doxygen\BitIoLdd1.txt</Line>
+        <Line>Documentation\doxygen\Parcour.txt</Line>
         <Line>Documentation\doxygen\Pitt_ET.txt</Line>
         <Line>Documentation\doxygen\RoutingReport.txt</Line>
         <Line>Documentation\doxygen\pex.doxyfile</Line>
@@ -80,7 +81,7 @@
         <Line>Project_Settings\Linker_Files\ProcessorExpert.ld</Line>
         <Line>Generated_Code\Vectors.c</Line>
       </GenExtraFiles>
-      <GenExtraFileSrcDir42>lib\doxygen\</GenExtraFileSrcDir42>
+      <GenExtraFileSrcDir43>lib\doxygen\</GenExtraFileSrcDir43>
       <XtraAge2>1248413368</XtraAge2>
       <XtraAge3>1248413368</XtraAge3>
       <XtraAge4>1248413368</XtraAge4>
@@ -110,15 +111,16 @@
       <XtraAge29>1248413368</XtraAge29>
       <XtraAge30>1248413368</XtraAge30>
       <XtraAge31>1248413368</XtraAge31>
-      <XtraAge44>1249400172</XtraAge44>
-      <XtraAge45>1249398644</XtraAge45>
-      <XtraAge47>1249398644</XtraAge47>
+      <XtraAge45>1250983256</XtraAge45>
+      <XtraAge46>1250983256</XtraAge46>
+      <XtraAge48>1250983256</XtraAge48>
+      <GenExtraFileType48>4</GenExtraFileType48>
       <GenExtraFileType47>4</GenExtraFileType47>
       <GenExtraFileType46>4</GenExtraFileType46>
       <GenExtraFileType45>4</GenExtraFileType45>
       <GenExtraFileType44>4</GenExtraFileType44>
-      <GenExtraFileType43>4</GenExtraFileType43>
-      <GenExtraFileType42>5</GenExtraFileType42>
+      <GenExtraFileType43>5</GenExtraFileType43>
+      <GenExtraFileType42>4</GenExtraFileType42>
       <GenExtraFileType41>4</GenExtraFileType41>
       <GenExtraFileType40>4</GenExtraFileType40>
       <GenExtraFileType39>4</GenExtraFileType39>
@@ -195,7 +197,7 @@
         <Line>FRTOS1_vApplicationMallocFailedHook</Line>
         <Line>Cpu_OnNMIINT</Line>
       </GenMethodsInEvents>
-      <GenAllModules lines_count="19">
+      <GenAllModules lines_count="20">
         <Line>BitIoLdd1</Line>
         <Line>Cpu</Line>
         <Line>DIR_L</Line>
@@ -206,6 +208,7 @@
         <Line>KSDK1</Line>
         <Line>LED1</Line>
         <Line>LEDpin1</Line>
+        <Line>Parcour</Line>
         <Line>PE_Const</Line>
         <Line>PE_Error</Line>
         <Line>PE_Types</Line>
@@ -217,7 +220,7 @@
         <Line>WAIT1</Line>
       </GenAllModules>
       <GenExternModules lines_count="0" />
-      <GenBeanModules lines_count="13">
+      <GenBeanModules lines_count="14">
         <Line>FRTOS1</Line>
         <Line>KSDK1</Line>
         <Line>UTIL1</Line>
@@ -231,11 +234,12 @@
         <Line>LED1</Line>
         <Line>LEDpin1</Line>
         <Line>BitIoLdd1</Line>
+        <Line>Parcour</Line>
       </GenBeanModules>
     </GenFiles>
     <SignalListFile>Documentation\Pitt_ET_SIGNALS.txt</SignalListFile>
     <DestinationCompiler>GNUC</DestinationCompiler>
-    <ProjectModificationStamp>41</ProjectModificationStamp>
+    <ProjectModificationStamp>42</ProjectModificationStamp>
   </Options>
   <CpuID_2>
     <Generated>true</Generated>
@@ -244,7 +248,7 @@
     <GenDriverVersion>01.04</GenDriverVersion>
     <GenEventModule>Events</GenEventModule>
     <HeaderAge>1248413368</HeaderAge>
-    <CodeAge>1249403411</CodeAge>
+    <CodeAge>1250983256</CodeAge>
     <AsemblAge>-1</AsemblAge>
     <GenNumMethods>11</GenNumMethods>
     <SetClockConfiguration>false</SetClockConfiguration>
@@ -4129,6 +4133,65 @@
       </InhrCompID_71>
     </InhrCompID_70>
   </ComponentID_69>
+  <ComponentID_84>
+    <Generated>true</Generated>
+    <GenCompName>Parcour</GenCompName>
+    <GenComponentVersion>01.033</GenComponentVersion>
+    <GenDriverVersion>01.03</GenDriverVersion>
+    <GenEventModule />
+    <HeaderAge>1250983256</HeaderAge>
+    <CodeAge>1250983256</CodeAge>
+    <AsemblAge>-1</AsemblAge>
+    <GenNumMethods>13</GenNumMethods>
+    <Init>true</Init>
+    <Deinit>false</Deinit>
+    <GetDir>false</GetDir>
+    <SetDir>false</SetDir>
+    <SetInput>false</SetInput>
+    <SetOutput>false</SetOutput>
+    <GetVal>true</GetVal>
+    <PutVal>false</PutVal>
+    <ClrVal>false</ClrVal>
+    <SetVal>false</SetVal>
+    <NegVal>false</NegVal>
+    <ConnectPin>false</ConnectPin>
+    <GetRawVal>false</GetRawVal>
+    <GenNumEvents>0</GenNumEvents>
+    <GenSmartUserChangesDetected_Header>false</GenSmartUserChangesDetected_Header>
+    <GenSmartUserChangesDetected_Code>false</GenSmartUserChangesDetected_Code>
+    <GenSmartUserChangesDetected_Asembl>false</GenSmartUserChangesDetected_Asembl>
+    <GenMethodPos>4</GenMethodPos>
+    <MethodPos>
+      <MethodPos0>Init</MethodPos0>
+      <MethodType>method</MethodType>
+      <ModuleType>Header</ModuleType>
+      <LineBeg>113</LineBeg>
+      <LineEnd>136</LineEnd>
+    </MethodPos>
+    <MethodPos>
+      <MethodPos1>GetVal</MethodPos1>
+      <MethodType>method</MethodType>
+      <ModuleType>Header</ModuleType>
+      <LineBeg>137</LineBeg>
+      <LineEnd>158</LineEnd>
+    </MethodPos>
+    <MethodPos>
+      <MethodPos2>Init</MethodPos2>
+      <MethodType>method</MethodType>
+      <ModuleType>Code</ModuleType>
+      <LineBeg>92</LineBeg>
+      <LineEnd>138</LineEnd>
+    </MethodPos>
+    <MethodPos>
+      <MethodPos3>GetVal</MethodPos3>
+      <MethodType>method</MethodType>
+      <ModuleType>Code</ModuleType>
+      <LineBeg>139</LineBeg>
+      <LineEnd>167</LineEnd>
+    </MethodPos>
+    <GenExtraFilesCount>1</GenExtraFilesCount>
+    <ExtraFile0>Documentation\doxygen\Parcour.txt</ExtraFile0>
+  </ComponentID_84>
   <UsedSrcFiles>
     <SrcFile0>Drivers\freeRTOS\Source\include\queue.h=1232168102</SrcFile0>
     <SrcFile1>Drivers\Common\UtilityNumFloatToStr.Inc=1232168104</SrcFile1>

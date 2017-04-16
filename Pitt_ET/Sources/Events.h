@@ -46,6 +46,7 @@
 #include "LED1.h"
 #include "LEDpin1.h"
 #include "BitIoLdd1.h"
+#include "Parcour.h"
 #include "Test.h"
 
 #ifdef __cplusplus

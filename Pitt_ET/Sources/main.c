@@ -42,6 +42,7 @@
 #include "LED1.h"
 #include "LEDpin1.h"
 #include "BitIoLdd1.h"
+#include "Parcour.h"
 #include "Test.h"
 //#include "Test.h"
 /* Including shared modules, which are used for whole project */
