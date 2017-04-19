@@ -43,6 +43,15 @@
 #include "LEDpin1.h"
 #include "BitIoLdd1.h"
 #include "Parcour.h"
+#include "TU2.h"
+#include "TRIG2.h"
+#include "TRIG3.h"
+#include "TRIG4.h"
+#include "TRIG5.h"
+#include "Term1.h"
+#include "Inhr1.h"
+#include "ASerialLdd1.h"
+#include "TRIG.h"
 #include "Test.h"
 //#include "Test.h"
 /* Including shared modules, which are used for whole project */
@@ -54,6 +63,7 @@
 #include "FRTOS1.h"
 #include "TestFreeRTOS.h"
 #include "Motor.h"
+#include "Sensor.h"
 
 //Gobale Variablen
 
@@ -107,7 +117,18 @@ int main(void)
   {
      for(;;){}; /* Out of heap memory? */
   }
+ 
   
+  if (FRTOS1_xTaskCreate(	Sensor,  /* pointer to the task */
+		  	  	  	  	  	(signed portCHAR *)"Sensor", /* task name for kernel awareness debugging */
+		  	  	  	  	  	configMINIMAL_STACK_SIZE, /* task stack size */
+		 	  	  	  	  	(void*)NULL, /* optional task startup argument */
+		  	  	  	  	  	tskIDLE_PRIORITY,  /* initial priority */
+		  	  	  	  	  	(xTaskHandle*)NULL /* optional task handle to create */
+     	 	 	 	 	 	 ) != pdPASS)
+  {
+     for(;;){}; /* Out of heap memory? */
+  }
   
 
   /*if (FRTOS1_xTaskCreate(	StateMachine,  // pointer to the task 

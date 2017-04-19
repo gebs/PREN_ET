@@ -6,7 +6,7 @@
 **     Component   : FreeRTOS
 **     Version     : Component 01.508, Driver 01.00, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-04-16, 15:23, # CodeGen: 54
+**     Date/Time   : 2017-04-19, 09:00, # CodeGen: 64
 **     Abstract    :
 **          This component implements the FreeRTOS Realtime Operating System
 **     Settings    :
@@ -68,8 +68,8 @@
 **          Memory                                         : Settings for the memory and heap allocation
 **            Dynamic Allocation                           : Enabled
 **              Heap Size                                  : 2048
-**              Application allocated Heap                 : no
-**              Memory Allocation Scheme                   : Scheme 4: merge free blocks
+**              Application allocated Heap                 : yes
+**              Memory Allocation Scheme                   : Scheme 3: malloc/free
 **            Static Allocation                            : Disabled
 **            User Memory Section                          : Disabled
 **          RTOS Adaptor                                   : Configures the RTOS adapter settings

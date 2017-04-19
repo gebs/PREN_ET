@@ -36,6 +36,13 @@
 - \subpage TU1
 - \subpage BitIoLdd1
 - \subpage Parcour
+- \subpage TU2
+- \subpage TRIG2
+- \subpage TRIG3
+- \subpage TRIG4
+- \subpage TRIG5
+- \subpage ASerialLdd1
+- \subpage TRIG
 
 
 */

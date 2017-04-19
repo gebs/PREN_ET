@@ -5,7 +5,7 @@
 **     Processor   : MKL25Z128VLK4
 **     Version     : Component 01.025, Driver 01.04, CPU db: 3.00.000
 **     Compiler    : GNU C Compiler
-**     Date/Time   : 2017-04-16, 15:42, # CodeGen: 55
+**     Date/Time   : 2017-04-18, 17:49, # CodeGen: 58
 **     Abstract    :
 **
 **     Settings    :
@@ -68,6 +68,15 @@
   #include "LEDpin1.h"
   #include "BitIoLdd1.h"
   #include "Parcour.h"
+  #include "TU2.h"
+  #include "TRIG2.h"
+  #include "TRIG3.h"
+  #include "TRIG4.h"
+  #include "TRIG5.h"
+  #include "Term1.h"
+  #include "Inhr1.h"
+  #include "ASerialLdd1.h"
+  #include "TRIG.h"
   #include "Events.h"
 
 
@@ -120,7 +129,7 @@
     (tIsrFunc)&Cpu_Interrupt,          /* 0x1E  0x00000078   -   ivINT_UART2                   unused by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x1F  0x0000007C   -   ivINT_ADC0                    unused by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x20  0x00000080   -   ivINT_CMP0                    unused by PE */
-    (tIsrFunc)&Cpu_Interrupt,          /* 0x21  0x00000084   -   ivINT_TPM0                    unused by PE */
+    (tIsrFunc)&TU2_Interrupt,          /* 0x21  0x00000084   2   ivINT_TPM0                    used by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x22  0x00000088   -   ivINT_TPM1                    unused by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x23  0x0000008C   -   ivINT_TPM2                    unused by PE */
     (tIsrFunc)&Cpu_Interrupt,          /* 0x24  0x00000090   -   ivINT_RTC                     unused by PE */
