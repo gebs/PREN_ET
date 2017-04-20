@@ -68,13 +68,33 @@
  uint16_t US_usToMillimeters(uint16_t microseconds, uint8_t temperatureCelsius);
 
  uint16_t calcAirspeed_dms(uint8_t temperatureCelsius);
+ 
  uint16_t US_Measure_us(uint8_t i);
+ 
 
+/*
+ * @param n 0-4 deaktiviert Sensor 
+ */
+	
+
+void deletsens(uint8_t n); 
+
+/*
+ * @param n 0-4 aktivert Sensor
+ */
+
+uint16_t getsens(uint8_t n); 
+/*
+ * Berechnet den Durchschnitt der letzten Messwerte ohne null Werte
+ * 
+ */
+
+ void durchschnitt(void); 
  /*
   * \brief Driver initialization routine.
   */
  void US_Init(void);
  
- void durchschnitt(void); 
+
 
 #endif /* SENSOR_H_ */

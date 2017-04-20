@@ -6,17 +6,19 @@
  */
 #include "Sensor.h"
 
+
+
 uint8_t sens[5] = { 1, 1, 1, 1, 0 }; /* = 1 wenn Sensor ausgwertet werden soll */
 
 typedef struct Mwertarray {
 
 	uint16_t werte[5];
-
+	uint16_t durchschnitt;
 } Mwertarray;
 
 typedef struct Messwerte {
 	Mwertarray mess[5];
-	uint16_t durchschnitt;
+	
 } Messwerte;
 
 Messwerte messwerte;
@@ -226,6 +228,7 @@ void durchschnitt(void) {
 		if (divisor != 0) {
 			durch[j] = (durch[j] / divisor); /* dividiert die summe der Messwerte durch anzahl Messwerte ungleich 0*/
 			divisor = 0;
+			messwerte.mess[j].durchschnitt = durch[j]; 
 			UTIL1_Num16uToStrFormatted(buf, sizeof(buf), durch[j], ' ', 5);
 			Term1_SendStr("   ");
 			Term1_SendNum(durch[j]);
@@ -236,6 +239,23 @@ void durchschnitt(void) {
 
 	Term1_CursorDown(1);
 	Term1_CursorLeft(80);
+}
+/*
+ * 
+ */
+void setsens(uint8_t n){
+	sens[n] = 1; 
+	
+}
+
+void deletsens(uint8_t n){
+	if(n<5 & 0>n){
+	sens[n]= 0; }
+}
+
+uint16_t getsens(uint8_t n){
+
+	return  messwerte.mess[n].durchschnitt; 
 }
 
 
