@@ -74,5 +74,7 @@
   * \brief Driver initialization routine.
   */
  void US_Init(void);
+ 
+ void durchschnitt(void); 
 
 #endif /* SENSOR_H_ */

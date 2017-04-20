@@ -237,3 +237,5 @@ void durchschnitt(void) {
 	Term1_CursorDown(1);
 	Term1_CursorLeft(80);
 }
+
+
