@@ -6,7 +6,7 @@
  */
 #include "Sensor.h"
 
-uint8_t sens[5] = { 1, 1, 1, 1, 0 }; /* = 1 wenn sensor ausgwertet werden soll */
+uint8_t sens[5] = { 1, 1, 1, 1, 0 }; /* = 1 wenn Sensor ausgwertet werden soll */
 
 typedef struct Mwertarray {
 
